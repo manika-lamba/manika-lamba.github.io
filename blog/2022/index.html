@@ -195,8 +195,6 @@
             
           
             
-          
-            
               
                 <li class="nav-item ">
                   
@@ -212,6 +210,17 @@
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/people/">Lab Members
                     
                   </a>
                 </li>
@@ -238,6 +247,10 @@
                     
                       
                         <a class="dropdown-item " href="/talks">Talks</a>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/news">News</a>
                       
                     
                   </div>
@@ -556,6 +569,13 @@
               handler: () => {
                 window.location.href = "/projects/";
               },
+            },{id: "nav-lab-members",
+              title: "Lab Members",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/people/";
+              },
             },{id: "dropdown-cv",
                   title: "CV",
                   description: "",
@@ -572,6 +592,13 @@
                   },
                 },{id: "dropdown-talks",
                   title: "Talks",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "dropdown-news",
+                  title: "News",
                   description: "",
                   section: "Dropdown",
                   handler: () => {

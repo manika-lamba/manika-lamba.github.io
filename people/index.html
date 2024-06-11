@@ -195,8 +195,6 @@
             
           
             
-          
-            
               
                 <li class="nav-item ">
                   
@@ -212,6 +210,19 @@
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item active">
+                  
+                  <a class="nav-link" href="/people/">Lab Members
+                    
+                      <span class="sr-only">(current)</span>
                     
                   </a>
                 </li>
@@ -238,6 +249,10 @@
                     
                       
                         <a class="dropdown-item " href="/talks">Talks</a>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/news">News</a>
                       
                     
                   </div>
@@ -352,118 +367,52 @@
 
         <div style="clear: left;"></div>
         <h1>Summer Research Assistants</h1>
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
-                <h3>Shariq Wajid</h3>
-                <p>2024</p>
+        <h2> 2024</h2>
+                <h3>Shariq Wajid, Jigyashu Saravta, Pengfei Wang, Tushuli Amod Patil</h3>
                 <p>MS Information Management, UIUC</p>
-            </div>
-        </div>
-
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
                 <h3>Nikhil Arora</h3>
-                <p>2024</p>
                 <p>MS Industrial Engineering, UIUC</p>
-            </div>
-        </div>
 
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
-                <h3>Jigyashu Saravta</h3>
-                <p>2024</p>
-                <p>MS Information Management, UIUC</p>
-            </div>
-        </div>
 
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
+
                 <h3>Manali Teke</h3>
-                <p>2024</p>
                 <p>MS Computer Science, NC State University </p>
             </div>
-        </div>
+
 
         <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
-                <h3>Shuvam Chatterjee</h3>
-                <p>2024</p>
-                <p>MS Engineering Science, University at Buffalo</p>
-            </div>
-        </div>
-
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
-                <h3>Pengfei Wang</h3>
-                <p>2024</p>
-                <p>MS Information Management, UIUC</p>
-            </div>
-        </div>
-
-        <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
                 <h3>Devarshi Trivedi</h3>
-                <p>2024</p>
                 <p>MS Business Analytics, University of Texas at Dallas</p>
             </div>
-        </div>
+
 
         <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
                 <h3>Nicholas Yeung</h3>
-                <p>2024</p>
                 <p>BS Information Science, UIUC</p>
             </div>
-        </div>
+
 
         <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
                 <h3>Tina Ding</h3>
-                <p>2024</p>
                 <p>BS Computer Science and Philosophy, UIUC</p>
             </div>
-        </div>
+
 
         <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
                 <h3>Smriti Trivedi</h3>
-                <p>2024</p>
                 <p>BS Information Science &amp; Data Science, Computer Science Minor, UIUC</p>
             </div>
-        </div>
+
+
 
         <div class="block">
-        <div class="single_profile">
-            <div id="single_info">
-                <h3>Tushuli Amod Patil</h3>
-                <p>2024</p>
-                <p>MS Information Management, UIUC</p>
+                <h3>Shuvam Chatterjee</h3>
+                <p>MS Engineering Science, University at Buffalo</p>
             </div>
-        </div>
+
+
 
     <div style="clear: left;"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div>
 
   </article>
@@ -712,6 +661,13 @@
               handler: () => {
                 window.location.href = "/projects/";
               },
+            },{id: "nav-lab-members",
+              title: "Lab Members",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/people/";
+              },
             },{id: "dropdown-cv",
                   title: "CV",
                   description: "",
@@ -728,6 +684,13 @@
                   },
                 },{id: "dropdown-talks",
                   title: "Talks",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "dropdown-news",
+                  title: "News",
                   description: "",
                   section: "Dropdown",
                   handler: () => {

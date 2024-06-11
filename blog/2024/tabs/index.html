@@ -192,8 +192,6 @@
             
           
             
-          
-            
               
                 <li class="nav-item ">
                   
@@ -209,6 +207,17 @@
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/people/">Lab Members
                     
                   </a>
                 </li>
@@ -235,6 +244,10 @@
                     
                       
                         <a class="dropdown-item " href="/talks">Talks</a>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/news">News</a>
                       
                     
                   </div>
@@ -357,7 +370,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="6248b554-92dc-49d4-909f-ab012a780cb7" data-name="log">
+<ul id="log" class="tab" data-tab="32b897e1-fc80-45f8-ab3f-3dc944facbed" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -372,7 +385,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="6248b554-92dc-49d4-909f-ab012a780cb7" data-name="log">
+<ul class="tab-content" id="32b897e1-fc80-45f8-ab3f-3dc944facbed" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -396,7 +409,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="1acd8c2f-bd08-4bd7-ad67-bf39cc902fee" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="e4c9c533-8282-4551-a0c6-d84856f66dff" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -407,7 +420,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="1acd8c2f-bd08-4bd7-ad67-bf39cc902fee" data-name="data-struct">
+<ul class="tab-content" id="e4c9c533-8282-4551-a0c6-d84856f66dff" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -429,7 +442,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="06f3a2b1-4e0d-401e-b2bd-1a0af90a9f95" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="675b88fd-9b41-4119-98c8-7523656ebd83" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -444,7 +457,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="06f3a2b1-4e0d-401e-b2bd-1a0af90a9f95" data-name="something-else">
+<ul class="tab-content" id="675b88fd-9b41-4119-98c8-7523656ebd83" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
@@ -729,6 +742,13 @@ Content 2
               handler: () => {
                 window.location.href = "/projects/";
               },
+            },{id: "nav-lab-members",
+              title: "Lab Members",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/people/";
+              },
             },{id: "dropdown-cv",
                   title: "CV",
                   description: "",
@@ -745,6 +765,13 @@ Content 2
                   },
                 },{id: "dropdown-talks",
                   title: "Talks",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "dropdown-news",
+                  title: "News",
                   description: "",
                   section: "Dropdown",
                   handler: () => {
