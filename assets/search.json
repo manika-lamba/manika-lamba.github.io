@@ -1,41 +1,41 @@
 [{
   "title": "News",
-  "url": "https://manika-lamba.github.io//allnews.html",
+  "url": "/manika-lamba/allnews.html",
   "content": "News\n\n\n\n\n\n31 May, 2026\nThree extended abstracts have been accepted to present as posters at the 2026 ICSSI conference in Boulder, Colorado!\n\n\n\n21 February, 2026\nAwarded the OU OVRP Junior Faculty Fellowship  ($7,000) to support the development of \"OpenCoder: An AI-Assisted Open Tool for Qualitative Research\"\n\n\n\n21 February, 2026\nMinitrack on \"Accessibility, Justice, and Critical AI in Sociotechnical Systems\" accepted to the 60th Hawaii International Conference on Systems Sciences\n\n\n\n\n"
 },{
   "title": "Blog",
-  "url": "https://manika-lamba.github.io//blogs/",
+  "url": "/manika-lamba/blogs/",
   "content": "Blog\n\n\n\n\nMay 31, 2024\nGreat Mathematicians and Physicists\n\n\n\nNov 28, 1961\nSpace-Time\n\n\n\n\n"
 },{
   "title": "HICSS27",
-  "url": "https://manika-lamba.github.io//hicss27/",
+  "url": "/manika-lamba/hicss27/",
   "content": "\n\n\n\nIf you are not redirected automatically,\nclick here.\n"
 },{
   "title": "Home",
-  "url": "https://manika-lamba.github.io//",
+  "url": "/manika-lamba/",
   "content": "Manika Lamba\nAssistant Professor, University of Oklahoma\n\n\nKnowledge Infrastructure\nComputational Social Science\nMetascience\nCritical Data Practices\n\n\nMy research investigates how information systems shape what knowledge can be found, interpreted, trusted, and reused. I examine where these systems fall short for particular forms of knowledge and for the communities that rely on them, and I use text mining, large language models, machine learning, and participatory approaches to study these challenges empirically. Through this work, I develop open tools, datasets, and research infrastructures that support more discoverable, accountable, and inclusive information systems.\n\n\n\n  \n   Author of\n  \n    Text Mining for Information Professionals: An Uncharted Territory \n  \n\n\n\n\n\n\n\n"
 },{
   "title": "Publications",
-  "url": "https://manika-lamba.github.io//publications/",
+  "url": "/manika-lamba/publications/",
   "content": "Publications Here is a (mostly complete, but probably not fully up to date) list of all my peer-reviewed publications. A more comprehensive and up-to-date (but slightly noisy) listing is available at my Google Scholar profile. Preprints Gardasevic, S., Lamba, M., and Malone, J.S. (2025). “Co-Designing a Knowledge Graph Navigation Interface: A Participatory Approach.” Refereed Journal Articles Lamba, M., Peng, Y., Nikolov, S., Layne‐Worthey, G., &amp; Downie, J. S. (2025). Metadata Enrichment of Long Text Documents using Large Language Models. Proceedings of the Association for Information Science and Technology, 62(1), 990–994. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1327 DOI BIB Abstract @article{lamba_metadata_2025, title = {Metadata {Enrichment} of {Long} {Text} {Documents} using {Large} {Language} {Models}}, volume = {62}, issn = {2373-9231, 2373-9231}, url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1327}, doi = {10.1002/pra2.1327}, language = {en}, number = {1}, urldate = {2026-06-11}, journal = {Proceedings of the Association for Information Science and Technology}, author = {Lamba, Manika and Peng, You and Nikolov, Sophie and Layne‐Worthey, Glen and Downie, J. Stephen}, month = oct, year = {2025}, pages = {990--994}, file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/VPRU6AT8/Lamba et al. - 2025 - Metadata Enrichment of Long Text Documents using Large Language Models.pdf:application/pdf} } ABSTRACT In this project, we semantically enriched and enhanced the metadata..."
 },{
   "title": "Software and Data",
-  "url": "https://manika-lamba.github.io//software & data/",
+  "url": "/manika-lamba/software & data/",
   "content": "Software and Data Website Git Paper Authors: M. Lamba and F.A. Santosa Coconut Libtool Textual analysis remains challenging for researchers, students and practitioners without programming expertise, creating barriers in social sciences and humanities research. To overcome that barrier, we developed Coconut Libtool, a web-based application that makes advanced textual analysis and visualization accessible to everyone. Dataset Demo App Paper Authors: M. Lamba, Y. Peng, S. Nikolov, and J. S. Downie Human Annotated Acknowledgment Dataset Acknowledgments are the most overlooked part of a scientific publication that is often taken for granted.Examining the acknowledgment sections of dissertations is crucial for understanding the cultural aspects embedded within academic practices and their impact on wider societal values and norms. We introduce an ongoing project involving a manually coded dataset consisting of acknowledgment sentences derived from dissertations sourced from the institutional repository of the University of Illinois Urbana-Champaign. Project Improve Parsing of ETDs Creating approaches for parsing author, advisor and degree metadata from electronic theses and dissertations (ETDs), recognising the distinct challenges and opportunities presented by this important type of scholarly output. Dataset Paper Authors: C. Barnett, M. FitzGerald, K. Krumbholz, and M. Lamba (Equal Contribution) Gender and Politics Research This application provides access to..."
 },{
   "title": "Software",
-  "url": "https://manika-lamba.github.io//software/",
+  "url": "/manika-lamba/software/",
   "content": "## Software and Data Software: Coconut Libtool Website Git Paper Authors: M. Lamba and F.A. Santosa Textual analysis remains challenging for researchers, students and practitioners without programming expertise, creating barriers in social sciences and humanities research. This poster presents Coconut Libtool 2.0, an enhanced web-based application that makes advanced textual analysis and visualization accessible to everyone. Building upon version 1.0, Coconut Libtool 2.0 significantly expands data source integration to include HathiTrust digital library, Dimensions, and PubMed, alongside existing Scopus, Web of Science, Lens, and customized file support. Enhanced text and visualization techniques include established methods for topic modeling, network text analysis, and keyword stemming, in addition to new features such as burst detection, sentiment analysis, and scattertext visualization. Dataset: Human Annotated Dataset of Support and Sentiments in Dissertation Acknowledgments Dataset Demo App Paper Authors: M. Lamba, Y. Peng, S. Nikolov, and J. S. Downie Acknowledgments are the most overlooked part of a scientific publication that is often taken for granted. The acknowledgment section of dissertations is historically understudied and is considered as \"Cinderella\" of academic writing. Examining the acknowledgment sections of dissertations is crucial for understanding the cultural aspects embedded within academic practices and their impact on wider societal values..."
 },{
   "title": "Talks",
-  "url": "https://manika-lamba.github.io//talks/",
+  "url": "/manika-lamba/talks/",
   "content": "## Invited Talks\n\n\n\n\nThanking the World\n\n\n\n\nMetadata Enrichment of Low Resource Data using LLM Agent\n\n\n\n\nOU AI Webinar Series: Coconut Libtool: AI-Driven Document Analysis\n\nallowfullscreen>\n\n\n\nAI-Driven Organization for Scientific Literature\n\nallowfullscreen>\n\n\n\nAdventures in Text Mining\n\n\n\n\nText Mining for Information Professionals\n\n\n\n\n\n"
 },{
   "title": "Teaching",
-  "url": "https://manika-lamba.github.io//teaching/",
+  "url": "/manika-lamba/teaching/",
   "content": "\n\n\n\nIf you are not redirected automatically,\nclick here."
 },{
   "title": "Team",
-  "url": "https://manika-lamba.github.io//team/",
+  "url": "/manika-lamba/team/",
   "content": "## Text-as-Data (TaDa) Research Group\n\nWe are always looking for new team members, please email at manika@ou.edu if you are interested!\n\n## PI\n\n\n\n\n\n{{ site.name }}\n{{ site.title }}, University of Oklahoma\n\n{% if site.email %}{% endif %}\n{% if site.links.google_scholar and site.links.google_scholar != \"\" %}{% endif %}\n{% if site.links.cv and site.links.cv != \"\" %}{% endif %}\n{% if site.links.github and site.links.github != \"\" %}{% endif %}\n{% if site.links.researchgate and site.links.researchgate != \"\" %}{% endif %}\n\n\n\n\n\n\n{% if site.data.team_members.size > 0 %}\n## Current Members \n\n\n{% for member in site.data.team_members %}\n\n\n{{ member.name }}\n{{ member.info }}\n\n{% if member.email %}{% endif %}\n{% if member.website %}{% endif %}\n{% if member.scholar %}{% endif %}\n{% if member.github %}{% endif %}\n\n\n{% endfor %}\n\n{% endif %}\n\n{% if site.data.alumni.size > 0 %}\n## Past Members\n\n\n\n\nNameDurationCurrent Position\n\n\n{% for member in site.data.alumni %}\n\n{{ member.name }}\n{{ member.duration }}\n{{ member.info }}\n\n{% endfor %}\n\n\n\n{% endif %}\n\n"
 }]

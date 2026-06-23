@@ -3,9 +3,9 @@
   <channel>
     <title>Manika Lamba</title>
     <description>Academic webpage of Dr. Manika Lamba</description>
-    <link>http://localhost:4000https://manika-lamba.github.io//</link>
-    <atom:link href="http://localhost:4000https://manika-lamba.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 23 Jun 2026 18:29:56 -0500</lastBuildDate>
+    <link>http://localhost:4000/manika-lamba/</link>
+    <atom:link href="http://localhost:4000/manika-lamba/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 23 Jun 2026 18:38:33 -0500</lastBuildDate>
     
     <item>
       <title>Great Mathematicians and Physicists</title>
@@ -17,8 +17,8 @@
 
 </description>
       <pubDate>Fri, 31 May 2024 00:00:00 -0500</pubDate>
-      <link>http://localhost:4000https://manika-lamba.github.io//fun/2024/05/31/great-mathematicians-and-physicists.html</link>
-      <guid isPermaLink="true">http://localhost:4000https://manika-lamba.github.io//fun/2024/05/31/great-mathematicians-and-physicists.html</guid>
+      <link>http://localhost:4000/manika-lamba/fun/2024/05/31/great-mathematicians-and-physicists.html</link>
+      <guid isPermaLink="true">http://localhost:4000/manika-lamba/fun/2024/05/31/great-mathematicians-and-physicists.html</guid>
     </item>
     
     <item>
@@ -55,8 +55,8 @@ References
 
 </description>
       <pubDate>Tue, 28 Nov 1961 00:00:00 -0600</pubDate>
-      <link>http://localhost:4000https://manika-lamba.github.io//lecture/notes/1961/11/28/space-time.html</link>
-      <guid isPermaLink="true">http://localhost:4000https://manika-lamba.github.io//lecture/notes/1961/11/28/space-time.html</guid>
+      <link>http://localhost:4000/manika-lamba/lecture/notes/1961/11/28/space-time.html</link>
+      <guid isPermaLink="true">http://localhost:4000/manika-lamba/lecture/notes/1961/11/28/space-time.html</guid>
     </item>
     
     
@@ -64,21 +64,21 @@ References
       <title>Three extended abstracts have been accepted to present as posters at the &lt;a href=&quot;https://icssi.org/&quot;&gt;2026 ICSSI conference in Boulder, Colorado&lt;/a&gt;!</title>
       <description>Three extended abstracts have been accepted to present as posters at the &lt;a href=&quot;https://icssi.org/&quot;&gt;2026 ICSSI conference in Boulder, Colorado&lt;/a&gt;!</description>
       <pubDate>Sun, 31 May 2026 00:00:00 -0500</pubDate>
-      <link>http://localhost:4000https://manika-lamba.github.io//allnews.html</link>
+      <link>http://localhost:4000/manika-lamba/allnews.html</link>
     </item>
     
     <item>
       <title>Awarded the &lt;a href=&quot;https://www.ou.edu/research-norman/research-support/research-council/funding-opportunities/junior-faculty-fellowship-program&quot;&gt;OU OVRP Junior Faculty Fellowship &lt;/a&gt; ($7,000) to support the development of &quot;OpenCoder: An AI-Assisted Open Tool for Qualitative Research&quot;</title>
       <description>Awarded the &lt;a href=&quot;https://www.ou.edu/research-norman/research-support/research-council/funding-opportunities/junior-faculty-fellowship-program&quot;&gt;OU OVRP Junior Faculty Fellowship &lt;/a&gt; ($7,000) to support the development of &quot;OpenCoder: An AI-Assisted Open Tool for Qualitative Research&quot;</description>
       <pubDate>Sat, 21 Feb 2026 00:00:00 -0600</pubDate>
-      <link>http://localhost:4000https://manika-lamba.github.io//allnews.html</link>
+      <link>http://localhost:4000/manika-lamba/allnews.html</link>
     </item>
     
     <item>
       <title>Minitrack on &quot;&lt;a href=&quot;https://manika-lamba.gitbook.io/ajc-ai&quot;&gt;Accessibility, Justice, and Critical AI in Sociotechnical Systems&lt;/a&gt;&quot; accepted to the 60th Hawaii International Conference on Systems Sciences</title>
       <description>Minitrack on &quot;&lt;a href=&quot;https://manika-lamba.gitbook.io/ajc-ai&quot;&gt;Accessibility, Justice, and Critical AI in Sociotechnical Systems&lt;/a&gt;&quot; accepted to the 60th Hawaii International Conference on Systems Sciences</description>
       <pubDate>Sat, 21 Feb 2026 00:00:00 -0600</pubDate>
-      <link>http://localhost:4000https://manika-lamba.github.io//allnews.html</link>
+      <link>http://localhost:4000/manika-lamba/allnews.html</link>
     </item>
     
   </channel>
