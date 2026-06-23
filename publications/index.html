@@ -1,1281 +1,1450 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head -->
+
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <!-- Metadata, OpenGraph and Schema.org -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications - Manika Lamba</title>
+  <meta name="description" content="Academic webpage of Dr. Manika Lamba">
 
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Publications">
+  <meta property="og:description" content="Academic webpage of Dr. Manika Lamba">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/publications/">
+  <meta property="og:image" content="http://localhost:4000/images/headshot.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Publications">
+  <meta name="twitter:description" content="Academic webpage of Dr. Manika Lamba">
+  <meta name="twitter:image" content="http://localhost:4000/images/headshot.jpg">
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;0,8..60,800;1,8..60,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-<!-- Standard metadata -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  <link rel="icon" href="http://localhost:4000/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="http://localhost:4000/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Manika Lamba" href="http://localhost:4000/feed.xml">
+
+  <!-- Accent color from config -->
   
+  <style>
+    :root { --accent: #1a7a6d; --accent-hover: #1a7a6d; }
+  </style>
   
-    
-      Publications | Manika Lamba
-    
-  
-</title>
-<meta name="author" content="Manika Lamba">
-<meta name="description" content="Assistant Professor, University of Oklahoma
-">
 
-  <meta name="keywords" content="information &amp; knowledge organization, text mining, NLP, human-AI interaction, HCI, user engagement, social representation, critical tech justice">
-
-
-
-
-
-
-
-
-
-
-<!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
-
-<!-- Bootstrap Table -->
-
-
-<!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
-<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
-
-<!-- Code Syntax Highlighting -->
-<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
-
-
-
-<!-- Styles -->
-
-<!-- pseudocode -->
-
-
-
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-
-<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://localhost:4000/publications/">
-
-<!-- Dark Mode -->
-<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
-
-  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <!-- Dark mode: apply saved theme before paint to prevent flash -->
   <script>
-    initTheme();
+    (function() {
+      var darkMode = true;
+      if (!darkMode) return;
+      var saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-bs-theme', saved);
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+      }
+    })();
   </script>
 
+  
 
-<!-- GeoJSON support via Leaflet -->
+  <script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Publications",
+    "url": "http://localhost:4000/publications/",
+    "description": "Academic webpage of Dr. Manika Lamba",
+    "author": {
+      "@type": "Person",
+      "name": "Manika Lamba",
+      "jobTitle": "Assistant Professor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Bizzell Library 118E, University of Oklahoma"
+      },
+      "sameAs": ["https://scholar.google.com/citations?user=sfRS9iwAAAAJ", "https://github.com/manika-lamba", "https://orcid.org/0000-0002-2022-3098"]
+    }
+  }
+  </script>
+</head>
 
 
-<!-- diff2html -->
+  <body>
 
+    <nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="http://localhost:4000/">
+      <img src="http://localhost:4000/favicon.svg" width="24" height="24" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;">
+      Manika Lamba
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-
-
-
-  </head>
-
-  <!-- Body -->
-  <body class="fixed-top-nav ">
-    <!-- Header -->
-    <header>
-  <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-    <div class="container">
-      
-        <a class="navbar-brand title font-weight-lighter" href="/">
-          Manika Lamba
-        </a>
-      
-      <!-- Navbar Toggle -->
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
-
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          
-
-          <!-- About -->
-          <li class="nav-item ">
-            <a class="nav-link" href="/">About
-              
-            </a>
-          </li>
-
-          <!-- Other pages -->
-          
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-                <li class="nav-item active">
-                  
-                  <a class="nav-link" href="/publications/">Publications
-                    
-                      <span class="sr-only">(current)</span>
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/projects/">Projects
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/people/">Lab Members
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                
-                
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More
-                    
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    
-                      
-                        <a class="dropdown-item " href="/assets/pdf/CV.pdf">CV</a>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="https://manika-lamba.gitbook.io/courses" rel="external nofollow noopener" target="_blank">Teaching</a>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/books">Books</a>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/talks">Talks</a>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/services">Professional Services</a>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/news">News</a>
-                      
-                    
-                  </div>
-                </li>
-              
-            
-          
-          
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
-              </button>
-            </li>
-          
-          
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          
-        </ul>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="http://localhost:4000/publications">Publications</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/software & data">Software & data</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/team">Team</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/hicss27">Hicss27</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/teaching">Teaching</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/talks">Talks</a>
+        </li>
+        
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+        
       </div>
     </div>
-  </nav>
-  
-    <!-- Scrolling Progress Bar -->
-    <progress id="progress" value="0">
-      <div class="progress-container">
-        <span class="progress-bar"></span>
-      </div>
-    </progress>
-  
-</header>
+  </div>
+</nav>
+
+<!-- Search overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-modal">
+<div class="search-input-wrapper">
+<i class="fa-solid fa-magnifying-glass search-input-icon"></i>
+<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off">
+<kbd class="search-kbd">ESC</kbd>
+</div>
+<div class="search-results" id="searchResults"></div>
+</div>
+</div>
 
 
-    <!-- Content -->
-    <div class="container mt-5" role="main">
+    <main class="site-container">
+      <div class="fade-in-section">
+  <h2 id="publications">Publications</h2>
+
+<p>Here is a (mostly complete, but probably not fully up to date) list of all my peer-reviewed publications. A more comprehensive and up-to-date (but slightly noisy) listing is available at my Google Scholar profile.</p>
+
+<p><input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year..." /></p>
+
+<div class="section-card" id="pubList">
+
+  <h3>Preprints</h3>
+
+  <ol>
+    <li>Gardasevic, S., Lamba, M., and Malone, J.S. (2025). <a href="https://arxiv.org/abs/2505.00907">“Co-Designing a Knowledge Graph Navigation Interface: A Participatory Approach.”</a></li>
+  </ol>
+
+  <ol class="bibliography" reversed="reversed"></ol>
+
+  <h3>Refereed Journal Articles</h3>
+
+  <ol class="bibliography" reversed="reversed"><li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_metadata_2025">Lamba, M., Peng, Y., Nikolov, S., Layne‐Worthey, G., &amp; Downie, J. S. (2025). Metadata Enrichment of Long Text Documents using Large Language Models. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 990–994. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1327</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_metadata_2025">Lamba, M., Peng, Y., Nikolov, S., Layne‐Worthey, G., &amp; Downie, J. S. (2025). Metadata Enrichment of Long Text Documents using Large Language Models. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 990–994. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1327</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
       
-        <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">Publications</h1>
-    <p class="post-description"></p>
-  </header>
+      <a href="http://doi.org/10.1002/pra2.1327" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
 
-  <article>
-    <h3 id="books">Books</h3>
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_metadata_2025">BIB</button>
+    
 
-<ol reversed="reversed">
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2022). <a href="https://doi.org/10.1007/978-3-030-85085-2" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Text Mining for Information Professionals: An Uncharted Territory</code></a>, Springer Nature. <a href="https://textmining-infopros.github.io/" rel="external nofollow noopener" target="_blank">[Author’s Website]</a> <a href="https://github.com/textmining-infopros" rel="external nofollow noopener" target="_blank">[Reproducible Research Compendium]</a></p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong> (Ed.). (2022). <a href="https://doi.org/10.4018/978-1-7998-8942-7" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Technological Advancements in Library Service Innovation</code></a>, IGI Global.</p>
-  </li>
-</ol>
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lamba_metadata_2025">Abstract</button>
+    
+  </div>
 
-<h3 id="journal-articles">Journal Articles</h3>
-<p>For more information see <a href="https://scholar.google.co.uk/citations?user=sfRS9iwAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">my Google Scholar profile</a>, <a href="https://orcid.org/0000-0002-2022-3098" rel="external nofollow noopener" target="_blank">my ORCID profile</a>, or <a href="https://www.researchgate.net/profile/Manika_Lamba3" rel="external nofollow noopener" target="_blank">my ResearchGate profile</a>.</p>
+  
+  <div class="pub-collapse" id="bib-lamba_metadata_2025">
+    <pre>@article{lamba_metadata_2025,
+  title = {Metadata {Enrichment} of {Long} {Text} {Documents} using {Large} {Language} {Models}},
+  volume = {62},
+  issn = {2373-9231, 2373-9231},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1327},
+  doi = {10.1002/pra2.1327},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Lamba, Manika and Peng, You and Nikolov, Sophie and Layne‐Worthey, Glen and Downie, J. Stephen},
+  month = oct,
+  year = {2025},
+  pages = {990--994},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/VPRU6AT8/Lamba et al. - 2025 - Metadata Enrichment of Long Text Documents using Large Language Models.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
 
-<ol reversed="reversed">
-  <li>
-    <p>Stanislava Gardasevic and <strong>Manika Lamba</strong>. <code class="language-plaintext highlighter-rouge">“It answers questions that I didn’t know I have”: Interdisciplinary Ph.D. Students’ Evaluation of Knowledge Graph</code>. <em>Digital Library Perspectives</em>. DOI:10.1108/DLP-02-2024-0025 (Accepted)</p>
-  </li>
-  <li>
-    <p>Bhakti Gala, <strong>Manika Lamba</strong>, Syeeda Hina Batool, Md. Anwarul Islam, Raj Kumar Bhardwaj.
-(2024). <a href="https://doi.org/10.1177/09610006241241065" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Duelling Health Misinformation: Perceptions and Behaviour of COVID-19 by Rural Population from South Asian Countries</code></a>. <em>Journal of Librarianship and Information Science</em>.</p>
-  </li>
-  <li>
-    <p>Bhakti Gala, Vanessa Reyes, Leili Seifi, <strong>Manika Lamba</strong>. (2024). <a href="https://doi.org/10.1108/LHTN-12-2023-0219" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Relationship Building through Informal Gatherings &amp; Technology Integrations: A Case Study</code></a>. <em>Library Hi-Tech News</em>, 41(2), 25-28.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2023). <a href="https://digitalcommons.unl.edu/libphilprac/7824" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Exploring OCR Errors in Full-Text Large Documents: A Study of LIS Theses and Dissertations</code></a>. <em>Library Philosophy and Practice</em>, 15052.</p>
-  </li>
-  <li>
-    <p>Brady D. Lund, Ting Wang, Amrollah Shamsi, Jamilu Abdullahi, Abosede Awojobi, Dhruba Jyoti
-Borgohain, Gema Bueno de la Fuente, Gilberto Parra Huerta, Alireza Isfandyari-Moghaddam,
-Md. Anwarul Islam, Ali Akbar Khasseh, <strong>Manika Lamba</strong>, Endang Fitriyah Mannan, David
-Manyonga, Boya Nan, Bing Nie, Vasantha Raju N., Ravi Shukla, Nafiz Zaman Shuva, Rafaela
-Carolina da Silva, Eva Ugarte, Aliyu Olugbenga Yusuf. (2023). <a href="https://doi.org/10.1177/02666669211052522" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Barriers to Scholarly Publishing Among Library and Information Science Researchers: International Perspectives</code></a>. <em>Information Development</em>, 39(2).</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2022). <a href="https://doi.org/10.18329/09757597/2022/15207" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Topic Modelling and its Application in Libraries: a review of specialized literature</code></a>. <em>World Digital Libraries</em>, 15(2), 105–120.</p>
-  </li>
-  <li>
-    <p>Carolyn Barnett, Michael Fitzgerald, Katie Krumholz, and <strong>Manika Lamba</strong>. (2022). <a href="https://doi.org/10.1017/S1049096522000385" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Gender in the Journals: A Dataset of Gender and Politics Research</code></a>. <em>PS: Political Science &amp; Politics</em>, 55(3), 511-518. <em>(Equal Contribution)</em> <a href="https://doi.org/10.7910/DVN/UVWRTV" rel="external nofollow noopener" target="_blank">[Data]</a> <a href="https://gender-politics.shinyapps.io/apps/" rel="external nofollow noopener" target="_blank">[Dashboard]</a></p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Neha Kashyap, Margam Madhusudhan. (2021). <a href="https://doi.org/10.1108/GKMC-07-2020-0097" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Research Evaluation of Computer Science Departments: A Cohort Study of Indian Central Universities</code></a>, <em>Global Knowledge, Memory and Communication</em>, 70(4/5), 459-486.</p>
-  </li>
-  <li>
-    <p>K.C.Garg, <strong>Manika Lamba</strong>, Rahul Kumar Singh. (2020). <a href="https://doi.org/10.14429/djlit.40.06.15741" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Bibliometric Analysis of papers published during 1992 to 2019 in DESIDOC Journal of Library and Information Technology</code></a>, <em>DESIDOC Journal of Library and Information Technology</em>, 40(6), 396-402.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2020). <a href="https://doi.org/10.1007/s11192-020-03433-5" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Research Productivity of Health Care Policy Faculty: A Cohort Study of Harvard Medical School</code></a>, <em>Scientometrics</em>, 124(1), 107–130.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2020). <a href="https://doi.org/10.48798/cadernosbad.2034" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Mapping of ETDs in ProQuest dissertations and theses (PQDT) global database (2014-2018)</code></a>, <em>Cadernos BAD</em>, 2019(1), 169–182.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2019). <a href="https://doi.org/10.1007/s11192-019-03137-5" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Mapping of Topics in DESIDOC Journal of Library and Information Technology, India: a study</code></a>, <em>Scientometrics</em>, 120(2), 477–505.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2019). <a href="https://digitalcommons.unl.edu/libphilprac/2593/" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Author-Topic Modeling of DESIDOC Journal of Library and Information Technology (2008-2017), India</code></a>, <em>Library Philosophy and Practice</em>, e2593.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>,  Margam Madhusudhan. (2019). <a href="https://doi.org/10.18329/09757597/2019/12103" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Metadata Tagging and Prediction Modeling: Case Study of DESIDOC Journal of Library and Information Technology (2008-2017), India</code></a>, <em>World Digital Libraries</em>, 12(1), 33–89.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2019). <a href="https://doi.org/10.1108/LM-03-2018-0013" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Marketing of academic health libraries 2.0: a case study</code></a>, <em>Library Management</em>, 40(3/4), 155–177.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2018). <a href="https://doi.org/10.1007/s13278-018-0541-y" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Application of sentiment analysis in li-
-braries to provide temporal information service: a case study on various facets of productivity</code></a>, <em>Social Network Analysis and Mining</em>, 8:63.</p>
-  </li>
-</ol>
+  
+  <div class="pub-collapse" id="abs-lamba_metadata_2025">
+    <pre>ABSTRACT
+            In this project, we semantically enriched and enhanced the metadata of long text documents, theses and dissertations, retrieved from the HathiTrust Digital Library in English published from 1920 to 2020 through a combination of manual efforts and large language models. This dataset provides a valuable resource for advancing research in areas such as computational social science, digital humanities, and information science. Our paper shows that enriching metadata using LLMs is particularly beneficial for digital repositories by introducing additional metadata access points that may not have originally been foreseen to accommodate various content types. This approach is particularly effective for repositories that have significant missing data in their existing metadata fields, enhancing search results, and improving the accessibility of the digital repository.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_coconut_2025">Lamba, M., Santosa, F. A., &amp; Le, T. (2025). Coconut Libtool 2.0: Enhanced All‐in‐One Data and Text Mining Tool. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 1523–1525. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1455</span></div>
 
-<h3 id="conference-articles">Conference Articles</h3>
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_coconut_2025">Lamba, M., Santosa, F. A., &amp; Le, T. (2025). Coconut Libtool 2.0: Enhanced All‐in‐One Data and Text Mining Tool. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 1523–1525. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1455</span></div> -->
 
-<ol reversed="reversed">
-  <li>
-    <p>Faizhal Arif Santosa, <strong>Manika Lamba</strong>, Crissandra J. George, J. Stephen Downie. (2024). <a href="https://arxiv.org/abs/2406.05949" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Coconut LibTool: Bridging Textual Analysis Gaps for Non-Programmers</code></a>. In <a href="https://www.asist.org/meetings-events/am/am24/" rel="external nofollow noopener" target="_blank"><em>87th Annual Meeting of the Association for Information Science and Technology</em></a>, Calgary, Canada. <em>(acceptance rate: 30%)</em> <a href="https://www.coconut-libtool.com/" rel="external nofollow noopener" target="_blank">[Coconut Libtool]</a></p>
-  </li>
-  <li>
-    <p>Devendra Potnis, Bhakti Gala, Leili Seifi, Nosheen Fatima Warraich, <strong>Manika Lamba</strong>, Vanessa Reyes. (2024). <code class="language-plaintext highlighter-rouge">Factors Influencing Professional Associations’ Member Engagement Online: An ”Information Practices” Approach</code>. In <a href="https://www.asist.org/meetings-events/am/am24/" rel="external nofollow noopener" target="_blank"><em>87th Annual Meeting of the Association for Information Science and Technology</em></a>, Calgary, Canada. <em>(acceptance rate: 32%)</em></p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2022). <a href="https://doi.org/10.5281/zenodo.7191599" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Visualizing the Pace of COVID-19 Research: An Experimental Study of All India Institute of Medical Sciences (AIIMS), New Delhi</code></a>. In <em>SIS Annual Convention 2022</em>, New Delhi, India. <a href="https://manika-lamba.shinyapps.io/covid_aiims/" rel="external nofollow noopener" target="_blank">[Storyboard]</a>  <a href="https://manika-lamba.github.io/stm/" rel="external nofollow noopener" target="_blank">[Topic Modeling Dashboard]</a></p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2019). <a href="https://arxiv.org/abs/2406.06076" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Text Analysis of ETDs in ProQuest Dissertations and Theses (PQDT) Global (2016-2018)</code></a>. In <em>ICDL2019: Digital Transformation for an Agile Environment</em>, New Delhi (pp. 734–745). New Delhi, India.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan (2018). <a href="https://doi.org/10.5281/zenodo.1475795" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Metadata Tagging of Library and Information Science Theses: Shodhganga (2013-2017)</code></a>. In <em>ETD 2018 Taiwan Beyond the Boundaries of Rims and Oceans: Globalizing Knowledge with ETDs</em>. Taipei, Taiwan.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, R.K. Bhatt (2017). <a href="https://doi.org/10.5281/zenodo.1475769" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Marketing of LIS Products and Services in Select Medical Libraries of Delhi in Digital Environment: A Comparative Study</code></a>. In <em>2nd International Conference of Asian Libraries: Expanding Digital Footprints: Role of Libraries &amp; Information Centers</em>,
-(pp. 179-192). New Delhi, India.</p>
-  </li>
-</ol>
+  
+  
 
-<h3 id="book-chapters">Book Chapters</h3>
+  <div class="pub-actions">
+    
 
-<ol reversed="reversed">
-  <li>
-    <p>Margam Madhusudhan, <strong>Manika Lamba</strong>. (2021). <a href="http://doi.org/10.5281/zenodo.4721411" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Subject librarians and their changing roles</code></a>. In <em>Quality Library Services in New Era</em> (pp. 88-96). Guwahati:EBH Publishers.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2019). <a href="http://doi.org/10.5281/zenodo.3241749" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">New Paradigm in Library 2.0: Sentiment Analysis of Twitter</code></a>. In <em>Emerging Trends for SMART Libraries: A Festschrift in Honour of Professor V.P.Khare in Four Volumes</em> (pp. 195-201). Delhi:Shree Publications, and Distributors.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2019). <a href="http://doi.org/10.5281/zenodo.1475769" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Marketing of University College of Medical Sciences Library, University of Delhi: a Study</code></a>. In <em>Innovative Librarianship through ICT Tools and Technology</em> (pp. 1-11). Delhi:Shree Publishers and Distributors.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Margam Madhusudhan. (2018). <a href="http://doi.org/10.5281/zenodo.1298739" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Application of Topic Mining and Prediction Modeling Tools for Library and Information Science Journals</code></a>. In <em>Library Practices in Digital Era: Festschrift in Honor of Prof. V Vishwa Mohan</em> (pp. 395-401). Hyderabad:BS Publications.</p>
-  </li>
-</ol>
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1455" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
 
-<h3 id="panels">Panels</h3>
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_coconut_2025">BIB</button>
+    
 
-<ol reversed="reversed">
-  <li>
-    <p>Devendra Potnis, Bhakti Gala, Vanessa Reyes, <strong>Manika Lamba</strong>, Nosheen Fatima Warraich, Leili Seifi, Paul Jason Perez. (2023). <a href="https://doi.org/10.5281/zenodo.7776962" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">How to Better Engage with ASIS&amp;T Members? Lessons Learned From SIG-III’s Activities During the COVID-19 Pandemic</code></a>. <em>2023 Mid-Year ASIS&amp;T Conference</em>.</p>
-  </li>
-  <li>
-    <p>Amara Malik, Syeda Batool, Naresh Agarwal, Anwarul Islam, Prasadi Jayasekara, Reshma Dangol, Manika Lamba, Abdul Baseer Mahmood. (2023). <a href="https://doi.org/10.5281/zenodo.7775553" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">D/Misinformation on Social Media and the Role of the LIS Profession: A South Asian Perspective</code></a>. <em>2023 Mid-Year ASIS&amp;T Conference</em>.</p>
-  </li>
-</ol>
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lamba_coconut_2025">Abstract</button>
+    
+  </div>
 
-<h3 id="posters">Posters</h3>
+  
+  <div class="pub-collapse" id="bib-lamba_coconut_2025">
+    <pre>@article{lamba_coconut_2025,
+  title = {Coconut {Libtool} 2.0: {Enhanced} {All}‐in‐{One} {Data} and {Text} {Mining} {Tool}},
+  volume = {62},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Coconut {Libtool} 2.0},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1455},
+  doi = {10.1002/pra2.1455},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Lamba, Manika and Santosa, Faizhal Arif and Le, Tam},
+  month = oct,
+  year = {2025},
+  pages = {1523--1525},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/9YBFI7RU/Lamba et al. - 2025 - Coconut Libtool 2.0 Enhanced All‐in‐One Data and Text Mining Tool.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
 
-<ol reversed="reversed">
-  <li>
-    <p>Karen Wickett, <strong>Manika Lamba</strong>, Jarett Newman. (2024). <code class="language-plaintext highlighter-rouge">Putting People First in Data Quality: Transparency and Accountability in an Open Arrest Record Dataset</code>. In <a href="https://www.asist.org/meetings-events/am/am24/" rel="external nofollow noopener" target="_blank"><em>87th Annual Meeting of the Association for Information Science and Technology</em></a>, Calgary, Canada.</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, John Walsh, Ryan Dubnicek,  Jenny Christie, J. Stephen Downie, Janet Swatscheno, Deren Kudeki, Glen Layne-Worthey . (2024). <code class="language-plaintext highlighter-rouge">TORCHLITE: New, Open Analytical Tools and Infrastructure for a Mega-Scale Digital Library</code>.  In <a href="https://www.asist.org/meetings-events/am/am24/" rel="external nofollow noopener" target="_blank"><em>87th Annual Meeting of the Association for Information Science and Technology</em></a>, Calgary, Canada.</p>
-  </li>
-  <li>
-    <p>Stanislava Gardasevic, <strong>Manika Lamba</strong>. (2024).<a href="https://hdl.handle.net/2142/123231" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Knowledge Graph for Academic Libraries: A User-Centered Design Approach</code></a>. <em>2024 American Library Association (ALA) Conference</em>, San Diego.</p>
-  </li>
-  <li>
-    <p>Faizhal Arif Santosa, <strong>Manika Lamba</strong>, Crissandra J. George. (2023). <a href="https://hdl.handle.net/2142/122277" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Coconut Library Tool: A Web-Based Application for Advanced Textual Analysis for Librarians</code></a>. <em>Research Showcase, University of Illinois at Urbana-Champaign</em>.</p>
-  </li>
-  <li>
-    <p>Man Yi Helen Chan, Kai Wah Samuel Chu, Bhakti Gala, Md. Anwarul Islam, Syeda Hina Batool, Raj KumarBhardwaj, Prasadi Kanchana Jayasekara, and Manika Lamba. (2022). <a href="https://doi-org/10.1002/pra2.673" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Equipping Students and Beyond with Sound COVID-19 Knowledge to Survive and Thrive Despite the Pandemic</code></a>. Proceedings of the Association for Information Science and Technology, 59:633-635. <a href="/documents/poster.pdf">[Poster]</a></p>
-  </li>
-</ol>
+  
+  <div class="pub-collapse" id="abs-lamba_coconut_2025">
+    <pre>ABSTRACT
+            Textual analysis remains challenging for researchers, students and practitioners without programming expertise, creating barriers in social sciences and humanities research. This poster presents Coconut Libtool 2.0, an enhanced web‐based application that makes advanced textual analysis and visualization accessible to everyone. Building upon version 1.0, Coconut Libtool 2.0 significantly expands data source integration to include HathiTrust digital library, Dimensions, and PubMed, alongside existing Scopus, Web of Science, Lens, and customized file support. Enhanced text and visualization techniques include established methods for topic modeling, network text analysis, and keyword stemming, in addition to new features such as burst detection, sentiment analysis, and scattertext visualization.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="peng_wikipedia_2025">Peng, Y., Lamba, M., &amp; Herrera‐Guzmán, Y. (2025). Wikipedia and \textlessspan style="font-variant:small-caps;"\textgreaterAI\textless/span\textgreater for Mapping Cultural Diaspora. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 1637–1639. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1492</span></div>
 
-<h3 id="theses">Theses</h3>
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="peng_wikipedia_2025">Peng, Y., Lamba, M., &amp; Herrera‐Guzmán, Y. (2025). Wikipedia and \textlessspan style="font-variant:small-caps;"\textgreaterAI\textless/span\textgreater for Mapping Cultural Diaspora. <i>Proceedings of the Association for Information Science and Technology</i>, <i>62</i>(1), 1637–1639. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1492</span></div> -->
 
-<ol reversed="reversed">
-  <li>
-    <p><strong>Manika Lamba</strong>. (2023). <code class="language-plaintext highlighter-rouge">Organization of Electronic Theses and Dissertations in ProQuest Database in the Field
-of Library and Information Science: A Study</code>. University of Delhi. [PhD]</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2019). <a href="http://dx.doi.org/10.13140/RG.2.2.35823.97441" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Topic Mining and Prediction Modeling of Library and Information Science Theses Submitted to Shodhganga During 2013 To 2017</code></a>. University of Delhi. [MPhil]</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2017). <a href="http://dx.doi.org/10.13140/RG.2.2.22402.20167" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Marketing of Library Products and Services in Selected Medical Libraries in Delhi: A Case Study</code></a>. University of Delhi. [MLIS]</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>. (2014). <a href="http://dx.doi.org/10.13140/RG.2.2.12341.69604" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Analysis of Filagrin Gene Variation in Different Disease Phenotypes</code></a>. TERI University. [MS]</p>
-  </li>
-</ol>
+  
+  
 
-<h3 id="manuscripts">Manuscripts</h3>
+  <div class="pub-actions">
+    
 
-<h5 id="books-1"><em>Books</em></h5>
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1492" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
 
-<ol reversed="reversed">
-  <li>
-    <p><strong>Manika Lamba</strong>. <code class="language-plaintext highlighter-rouge">Introduction to Topic Modeling and Topic Visualization for Social Scientists</code>, CRC Press. (Under Preparation, Expected Publication in 2026)</p>
-  </li>
-  <li>
-    <p>Shailendra Kumar, Rajesh Singh, and <strong>Manika Lamba</strong>. <code class="language-plaintext highlighter-rouge">Academic Library Policy Development: A Primer</code>, Facets Publishing (Under Preparation, Expected Publication in 2025)</p>
-  </li>
-</ol>
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-peng_wikipedia_2025">BIB</button>
+    
 
-<h5 id="journal-papers"><em>Journal Papers</em></h5>
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-peng_wikipedia_2025">Abstract</button>
+    
+  </div>
 
-<ol reversed="reversed">
-  <li>
-    <p><strong>Manika Lamba</strong> and Hendrik Erz. <a href="https://arxiv.org/abs/2406.06006" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">Thanking the World: Exploring Gender-Based Differences in Acknowledgment Patterns and Support Systems in Theses Systems in Theses</code></a> (Under Review) [arXiv]</p>
-  </li>
-  <li>
-    <p>Stanislava Gardasevic, Aditi Jaiswal, <strong>Manika Lamba</strong>, Yinan Sun, Kar- Hai Chu, Jena Funakoshi, Pallav Pokhrel, Peter Washington. <code class="language-plaintext highlighter-rouge">Public Health on Social Media During the COVID-19 Era: Systematic Review of Studies Applying Social Network Analysis</code> (Under Review)</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, You Peng, Sophie Nikolov. <code class="language-plaintext highlighter-rouge">Dataset of Support Systems and Sentiments Mentioned in Dissertation Acknowledgments</code> (Under Preparation)</p>
-  </li>
-  <li>
-    <p>Carolyn Barnett, Michael FitzGerald, Katie Krumbholz, and <strong>Manika Lamba</strong>. <code class="language-plaintext highlighter-rouge">Research Articles in Politics &amp; Gender: Trends Over Time</code> (Under Preparation)</p>
-  </li>
-  <li>
-    <p>Stanislava Gardasevic and <strong>Manika Lamba</strong>. <code class="language-plaintext highlighter-rouge">Deliberations on Crowdsourced Data Privacy and Sharing in Social Networking Sites: PhD students’ Perspectives</code> (Under Preparation)</p>
-  </li>
-  <li>
-    <p><strong>Manika Lamba</strong>, Bhakti Gala, Md. Anwarul Islam, Raj Kumar Bhardwaj. <code class="language-plaintext highlighter-rouge">In-depth Analysis of Indian MTurkers’ Perceptions of COVID-19 Misinformation</code> (Under Preparation)</p>
-  </li>
-  <li>
-    <p>Leili Seifi, Bhakti Gala, <strong>Manika Lamba</strong>, Shalini Urs. <code class="language-plaintext highlighter-rouge">Virtual Educational Events as an Effective and Engaging Medium for Early Career Professionals: A Case Study Analyzing the Perspective of IDEA</code> (Under Preparation)</p>
-  </li>
-  <li>
-    <p>Chen-Shuo Hong and <strong>Manika Lamba</strong>.<code class="language-plaintext highlighter-rouge">An Experimental design on the Relationship between COVID-19 misinformation and Protective Behavior</code> (Under Preparation, Equal Contribution)</p>
-  </li>
-</ol>
+  
+  <div class="pub-collapse" id="bib-peng_wikipedia_2025">
+    <pre>@article{peng_wikipedia_2025,
+  title = {Wikipedia and {\textless}span style="font-variant:small-caps;"{\textgreater}{AI}{\textless}/span{\textgreater} for {Mapping} {Cultural} {Diaspora}},
+  volume = {62},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Wikipedia and {\textless}span style="font-variant},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1492},
+  doi = {10.1002/pra2.1492},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Peng, You and Lamba, Manika and Herrera‐Guzmán, Yessica},
+  month = oct,
+  year = {2025},
+  pages = {1637--1639},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/P2YZ2NI3/Peng et al. - 2025 - Wikipedia and AI for Mapping Cultural Diaspora.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
 
-<h5 id="book-chapters-1"><em>Book Chapters</em></h5>
+  
+  <div class="pub-collapse" id="abs-peng_wikipedia_2025">
+    <pre>ABSTRACT
+            This project explores how publicly sourced digital platforms, combined with generative AI, can support the study of cultural diaspora in the performing arts. Using ballet as a case study, we extracted data from 518 English Wikipedia entries and applied GPT‐based models to structure information on premiere dates, locations, and creative contributors. We identify culturally significant locations and construct a bipartite network linking artists to ballet premiere cities, offering a framework to trace transnational creative flows that contribute to cultural diaspora. Our findings show that integrating human‐curated data with AI‐assisted structuring provides a valuable entry point for data‐driven analysis of cultural mobility in understudied domains. This work contributes to growing efforts to bridge computational methods and the humanities through accessible and reproducible approaches.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="gala_dueling_2025">Gala, B., Lamba, M., Batool, S. H., Islam, M. A., &amp; Bhardwaj, R. K. (2025). Dueling COVID-19 misinformation: Perceptions and behavior of the rural population from South Asian countries. <i>Journal of Librarianship and Information Science</i>, <i>57</i>(3), 762–776. https://journals.sagepub.com/doi/10.1177/09610006241241065</span></div>
 
-<ol reversed="reversed">
-  <li>Brady Lund, <strong>Manika Lamba</strong>, Sang Hoo Oh. <a href="https://arxiv.org/abs/2406.06009" rel="external nofollow noopener" target="_blank"><code class="language-plaintext highlighter-rouge">The Impact of AI on Academic Research and
- Publishing</code></a> (Under Review) [arXiv]</li>
-</ol>
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="gala_dueling_2025">Gala, B., Lamba, M., Batool, S. H., Islam, M. A., &amp; Bhardwaj, R. K. (2025). Dueling COVID-19 misinformation: Perceptions and behavior of the rural population from South Asian countries. <i>Journal of Librarianship and Information Science</i>, <i>57</i>(3), 762–776. https://journals.sagepub.com/doi/10.1177/09610006241241065</span></div> -->
 
-  </article>
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1177/09610006241241065" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-gala_dueling_2025">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-gala_dueling_2025">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-gala_dueling_2025">
+    <pre>@article{gala_dueling_2025,
+  title = {Dueling {COVID}-19 misinformation: {Perceptions} and behavior of the rural population from {South} {Asian} countries},
+  volume = {57},
+  issn = {0961-0006, 1741-6477},
+  shorttitle = {Dueling {COVID}-19 misinformation},
+  url = {https://journals.sagepub.com/doi/10.1177/09610006241241065},
+  doi = {10.1177/09610006241241065},
+  language = {en},
+  number = {3},
+  urldate = {2026-06-11},
+  journal = {Journal of Librarianship and Information Science},
+  author = {Gala, Bhakti and Lamba, Manika and Batool, Syeda Hina and Islam, Md Anwarul and Bhardwaj, Raj Kumar},
+  month = sep,
+  year = {2025},
+  pages = {762--776},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/BCV5V2ID/Gala et al. - 2025 - Dueling COVID-19 misinformation Perceptions and behavior of the rural population from South Asian c.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-gala_dueling_2025">
+    <pre>This multi-lingual study presents the awareness, perceptions, and behavior regarding COVID-19 “misinformation” and “fake news,” among the rural population of the South Asian (SA) countries of Bangladesh, India, and Pakistan. The survey questionnaire was distributed to a convenient sample of 400 respondents from the three most populated SA countries selected due to their shared socio-cultural history; limited by fund availability and travel restrictions due to the prevailing lockdowns during the data collection period of early 2022. Results indicate that 92.98% of the participants perceived the presence of COVID-19 misinformation to varying degrees around them with less than 10% finding it easy to verify the accuracy of the information. The results indicate that the participants initially believed the made-up news and information to be true and then experienced fear or uncertainty upon realizing that it was fake. Results further show significant differences in perception and behavior when analyzed with the parameters of gender, age, education, and religion. Our study highlighted that female respondents perceived less than male respondents that fake news was around them, and younger participants of the study had less perception of the presence of fake news around them. The present study also found that the education level of respondents is a strong predictor of their perception of COVID-19 misinformation. Respondents with high school degrees perceived less made-up news and information than associate and master-level degree holders. The findings indicate a lack of media literacy, with a vast majority of individuals being susceptible to false information. The findings of the study will help healthcare professionals, information professionals, social workers, extension workers, and policymakers to deal with the Infodemic and further also assist in designing shared health information literacy programs across the region.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="potnis_factors_2024">Potnis, D., Gala, B., Seifi, L., Warraich, N., Lamba, M., &amp; Reyes, V. (2024). Factors Influencing Professional Associations’ Member Engagement Online: An “Information Practices” Approach. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 314–325. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1030</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="potnis_factors_2024">Potnis, D., Gala, B., Seifi, L., Warraich, N., Lamba, M., &amp; Reyes, V. (2024). Factors Influencing Professional Associations’ Member Engagement Online: An “Information Practices” Approach. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 314–325. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1030</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1030" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-potnis_factors_2024">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-potnis_factors_2024">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-potnis_factors_2024">
+    <pre>@article{potnis_factors_2024,
+  title = {Factors {Influencing} {Professional} {Associations}' {Member} {Engagement} {Online}: {An} “{Information} {Practices}” {Approach}},
+  volume = {61},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Factors {Influencing} {Professional} {Associations}' {Member} {Engagement} {Online}},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1030},
+  doi = {10.1002/pra2.1030},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Potnis, Devendra and Gala, Bhakti and Seifi, Leili and Warraich, Nosheen and Lamba, Manika and Reyes, Vanessa},
+  month = oct,
+  year = {2024},
+  pages = {314--325},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/ZFH2VZUC/Potnis et al. - 2024 - Factors Influencing Professional Associations' Member Engagement Online An “Information Practices”.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-potnis_factors_2024">
+    <pre>ABSTRACT
+            Member engagement can benefit professional associations, their members, and the profession. Rarely any studies adopt the “information practices” approach to identify the factors influencing professional associations’ member engagement. The experiences, epiphanies, and the frequency of 11 information practices of six SIG‐III officers and volunteers when planning and implementing 184 activities of eight initiatives from 2020 to 2023 helped this autoethnography study identify 99 sub‐factors and 18 factors influencing the member engagement online. Information production, dissemination, recording, use, and discovery emerge as the top 5 information practices of officers and volunteers, in the same order, for influencing the SIG member engagement. Managing member attendance, Sharing knowledge, Managing member attention, Meeting member needs, and Building trust serve as the top 5 factors, in the same order, for affecting the member engagement. We propose a theoretical model and provide guidance to associations to enhance and sustain member engagement.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="wickett_putting_2024">Wickett, K. M., Lamba, M., &amp; Newman, J. (2024). Putting People First in Data Quality: Feminist Data Ethics for Open Government Datasets. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 1135–1137. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1209</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="wickett_putting_2024">Wickett, K. M., Lamba, M., &amp; Newman, J. (2024). Putting People First in Data Quality: Feminist Data Ethics for Open Government Datasets. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 1135–1137. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1209</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1209" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-wickett_putting_2024">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-wickett_putting_2024">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-wickett_putting_2024">
+    <pre>@article{wickett_putting_2024,
+  title = {Putting {People} {First} in {Data} {Quality}: {Feminist} {Data} {Ethics} for {Open} {Government} {Datasets}},
+  volume = {61},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Putting {People} {First} in {Data} {Quality}},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1209},
+  doi = {10.1002/pra2.1209},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Wickett, Karen M. and Lamba, Manika and Newman, Jarrett},
+  month = oct,
+  year = {2024},
+  pages = {1135--1137},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/EFR2JBPU/Wickett et al. - 2024 - Putting People First in Data Quality Feminist Data Ethics for Open Government Datasets.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-wickett_putting_2024">
+    <pre>ABSTRACT
+            Open government information systems offer great potential for advancing civic life and democracy, but they also reflect and reinforce the biases and systematic inequalities faced by members of socially marginalized groups. We present results from a critical data modeling project that uses a data quality framework to examine open datasets published by police departments in order to understand how data modeling choices shape the social impact of these datasets. Using an arrest record dataset published by the Los Angeles Police Department as a case study, we present we present results detailing the representation of racial data and the presence of children in the dataset. We argue that current data quality frameworks for open government data are insufficient for critical data studies due to an orientation around institutional and computational interests. Incorporating feminist data ethics into data quality analysis provides an approach to data quality that centers people and communities. We propose a definition for data quality of open government datasets based on an ethics of care that centers the needs of vulnerable populations and accountability of institutions toward their communities.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="santosa_coconut_2024">Santosa, F. A., Lamba, M., George, C., &amp; Downie, J. S. (2024). Coconut Libtool: Bridging Textual Analysis Gaps for Non‐Programmers. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 639–644. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1072</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="santosa_coconut_2024">Santosa, F. A., Lamba, M., George, C., &amp; Downie, J. S. (2024). Coconut Libtool: Bridging Textual Analysis Gaps for Non‐Programmers. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 639–644. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1072</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1072" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-santosa_coconut_2024">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-santosa_coconut_2024">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-santosa_coconut_2024">
+    <pre>@article{santosa_coconut_2024,
+  title = {Coconut {Libtool}: {Bridging} {Textual} {Analysis} {Gaps} for {Non}‐{Programmers}},
+  volume = {61},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Coconut {Libtool}},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1072},
+  doi = {10.1002/pra2.1072},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Santosa, Faizhal Arif and Lamba, Manika and George, Crissandra and Downie, J. Stephen},
+  month = oct,
+  year = {2024},
+  pages = {639--644},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/X9UX3RHX/Santosa et al. - 2024 - Coconut Libtool Bridging Textual Analysis Gaps for Non‐Programmers.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-santosa_coconut_2024">
+    <pre>ABSTRACT
+            
+              In the era of big and ubiquitous data, professionals and students alike are finding themselves needing to perform a number of textual analysis tasks. Historically, the general lack of statistical expertise and programming skills has stopped many with humanities or social sciences backgrounds from performing and fully benefiting from such analyses. Thus, we introduce Coconut Libtool (
+              www.coconut-libtool.com/
+              ), an open‐source, web‐based application that utilizes state‐of‐the‐art natural language processing (NLP) technologies. Coconut Libtool analyzes text data from customized files and bibliographic databases such as Web of Science, Scopus, and Lens. Users can verify which functions can be performed with the data they have. Coconut Libtool deploys multiple algorithmic NLP techniques at the backend, including topic modeling (
+              LDA, Biterm, and BERTopic
+              algorithms), network graph visualization, keyword lemmatization, and sunburst visualization. Coconut Libtool is the people‐first web application designed to be used by professionals, researchers, and students in the information sciences, digital humanities, and computational social sciences domains to promote transparency, reproducibility, accessibility, reciprocity, and responsibility in research practices.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_torchlite_2024">Lamba, M., Walsh, J., Dubnicek, R., Christie, J., Downie, J. S., Swatscheno, J., Kudeki, D., &amp; Layne-Worthey, G. (2024). TORCHLITE: New, Open Analytical Tools and Infrastructure for a Mega-Scale Digital Library. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 980–982. _eprint: https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/pra2.1160. https://onlinelibrary.wiley.com/doi/abs/10.1002/pra2.1160</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_torchlite_2024">Lamba, M., Walsh, J., Dubnicek, R., Christie, J., Downie, J. S., Swatscheno, J., Kudeki, D., &amp; Layne-Worthey, G. (2024). TORCHLITE: New, Open Analytical Tools and Infrastructure for a Mega-Scale Digital Library. <i>Proceedings of the Association for Information Science and Technology</i>, <i>61</i>(1), 980–982. _eprint: https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/pra2.1160. https://onlinelibrary.wiley.com/doi/abs/10.1002/pra2.1160</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1002/pra2.1160" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_torchlite_2024">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lamba_torchlite_2024">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_torchlite_2024">
+    <pre>@article{lamba_torchlite_2024,
+  title = {{TORCHLITE}: {New}, {Open} {Analytical} {Tools} and {Infrastructure} for a {Mega}-{Scale} {Digital} {Library}},
+  volume = {61},
+  copyright = {87th Annual Meeting of the Association for Information Science \&amp; Technology {\textbar} Oct. 25 – 29, 2024 {\textbar} Calgary, AB, Canada},
+  issn = {2373-9231},
+  shorttitle = {{TORCHLITE}},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/pra2.1160},
+  doi = {10.1002/pra2.1160},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Lamba, Manika and Walsh, John and Dubnicek, Ryan and Christie, Jennifer and Downie, J. Stephen and Swatscheno, Janet and Kudeki, Deren and Layne-Worthey, Glen},
+  year = {2024},
+  note = {\_eprint: https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/pra2.1160},
+  keywords = {API, Community Engagement, Data Visualization, Digital Libraries, HathiTrust},
+  pages = {980--982},
+  file = {Snapshot:/Users/manika/Zotero/storage/X9KPU8NV/pra2.html:text/html}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-lamba_torchlite_2024">
+    <pre>This paper introduces TORCHLITE, an innovative HathiTrust Research Center (HTRC) open analytical and computational framework designed to offer efficient, open, and approachable access to the HTRC Extracted Features (EF) dataset via a well-documented web-based API. This poster will summarize project goals and progress, and discuss community engagement, which has played a pivotal role in this project. During a hackathon event held in spring 2024, TORCHLITE fostered collaboration among digital humanities and information science scholars to develop widgets and notebooks utilizing the EF API. Through the hackathon, participants explored the API’s capabilities, leading to the creation of over a dozen analytical widgets and interactive programming notebooks (e.g., Jupyter).</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="gala_relationship_2024">Gala, B., Reyes, V., Seifi, L., &amp; Lamba, M. (2024). Relationship building through informal gatherings and technology integrations: a case study. <i>Library Hi Tech News</i>, <i>41</i>(2), 25–28. https://www.emerald.com/lhtn/article-abstract/41/2/25/1231363</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="gala_relationship_2024">Gala, B., Reyes, V., Seifi, L., &amp; Lamba, M. (2024). Relationship building through informal gatherings and technology integrations: a case study. <i>Library Hi Tech News</i>, <i>41</i>(2), 25–28. https://www.emerald.com/lhtn/article-abstract/41/2/25/1231363</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-gala_relationship_2024">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-gala_relationship_2024">
+    <pre>@article{gala_relationship_2024,
+  title = {Relationship building through informal gatherings and technology integrations: a case study},
+  volume = {41},
+  shorttitle = {Relationship building through informal gatherings and technology integrations},
+  url = {https://www.emerald.com/lhtn/article-abstract/41/2/25/1231363},
+  number = {2},
+  urldate = {2026-06-11},
+  journal = {Library Hi Tech News},
+  publisher = {Emerald Publishing Limited},
+  author = {Gala, Bhakti and Reyes, Vanessa and Seifi, Leili and Lamba, Manika},
+  year = {2024},
+  pages = {25--28},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/YHME6AXC/Gala et al. - 2024 - Relationship building through informal gatherings and technology integrations a case study.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
 
   
 </div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="gardasevic_knowledge_2024">Gardasevic, S., &amp; Lamba, M. (2024). <i>Knowledge Graph for Academic Libraries: A User-Centered Design Approach</i>. https://www.ideals.illinois.edu/items/130413</span></div>
 
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="gardasevic_knowledge_2024">Gardasevic, S., &amp; Lamba, M. (2024). <i>Knowledge Graph for Academic Libraries: A User-Centered Design Approach</i>. https://www.ideals.illinois.edu/items/130413</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-gardasevic_knowledge_2024">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-gardasevic_knowledge_2024">
+    <pre>@article{gardasevic_knowledge_2024,
+  title = {Knowledge {Graph} for {Academic} {Libraries}: {A} {User}-{Centered} {Design} {Approach}},
+  shorttitle = {Knowledge {Graph} for {Academic} {Libraries}},
+  url = {https://www.ideals.illinois.edu/items/130413},
+  urldate = {2026-06-11},
+  author = {Gardasevic, Stanislava and Lamba, Manika},
+  year = {2024},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/4LMPFDGB/Gardasevic and Lamba - 2024 - Knowledge Graph for Academic Libraries A User-Centered Design Approach.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lund_barriers_2023">Lund, B. D., Wang, T., Shamsi, A., Abdullahi, J., Awojobi, E. A., Borgohain, D. J., Bueno De La Fuente, G., Huerta, G. P., Isfandyari-Moghaddam, A., Islam, M. A., Khasseh, A. A., Lamba, M., Mannan, E. F., Manyonga, D., Nan, B., Nie, B., Raju N., V., Pineda, E. U., Shukla, R., … Yusuf, A. O. (2023). Barriers to scholarly publishing among library and information science researchers: International perspectives. <i>Information Development</i>, <i>39</i>(2), 376–389. https://journals.sagepub.com/doi/10.1177/02666669211052522</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lund_barriers_2023">Lund, B. D., Wang, T., Shamsi, A., Abdullahi, J., Awojobi, E. A., Borgohain, D. J., Bueno De La Fuente, G., Huerta, G. P., Isfandyari-Moghaddam, A., Islam, M. A., Khasseh, A. A., Lamba, M., Mannan, E. F., Manyonga, D., Nan, B., Nie, B., Raju N., V., Pineda, E. U., Shukla, R., … Yusuf, A. O. (2023). Barriers to scholarly publishing among library and information science researchers: International perspectives. <i>Information Development</i>, <i>39</i>(2), 376–389. https://journals.sagepub.com/doi/10.1177/02666669211052522</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
       
+      <a href="http://doi.org/10.1177/02666669211052522" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lund_barriers_2023">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lund_barriers_2023">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lund_barriers_2023">
+    <pre>@article{lund_barriers_2023,
+  title = {Barriers to scholarly publishing among library and information science researchers: {International} perspectives},
+  volume = {39},
+  issn = {0266-6669, 1741-6469},
+  shorttitle = {Barriers to scholarly publishing among library and information science researchers},
+  url = {https://journals.sagepub.com/doi/10.1177/02666669211052522},
+  doi = {10.1177/02666669211052522},
+  language = {en},
+  number = {2},
+  urldate = {2026-06-11},
+  journal = {Information Development},
+  author = {Lund, Brady D. and Wang, Ting and Shamsi, Amrollah and Abdullahi, Jamilu and Awojobi, Esther Abosede and Borgohain, Dhruba Jyoti and Bueno De La Fuente, Gema and Huerta, Gilberto Parra and Isfandyari-Moghaddam, Alireza and Islam, Md. Anwarul and Khasseh, Ali Akbar and Lamba, Manika and Mannan, Endang Fitriyah and Manyonga, David and Nan, Boya and Nie, Bing and Raju N., Vasantha and Pineda, Eva Ugarte and Shukla, Ravi and Da Silva, Rafaela Carolina and Yusuf, Aliyu Olugbenga},
+  month = jun,
+  year = {2023},
+  pages = {376--389},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/MF5FKTMD/02666669211052522.html:text/html}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-lund_barriers_2023">
+    <pre>The 21 authors of this study, 19 of whom are non-native English speakers, reflect on the barriers to publishing academic journal articles in top international journals. Each author responded to the same set of questions pertaining to educational (PhD) opportunities for emerging scholars, financial conditions for researchers, and challenges in publishing their work. Limited English language skills, lack of research funding, and different research topics were identified as the most significant barriers to publish in the journals. Recruiting volunteers or using electronic translations for accepted articles for journals, reducing software and subscription to academic journals costs, expanding journal scope, and providing guidance and collaboration across borders are possible measures to reduce the negative impact of the barriers.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="malik_dmisinformation_2023">Malik, A., Batool, S. H., Agarwal, N. K., Islam, M. A., Jayasekara, P. K., Dangol, R., Lamba, M., &amp; Mahmood, A. B. (2023). D/Misinformation on Social Media and the Role of the LIS Profession: A South Asian Perspective. <i>Zenodo (CERN European Organization for Nuclear Research)</i>. https://www.academia.edu/download/112363420/Malik_A_MY23_Panel.pdf</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="malik_dmisinformation_2023">Malik, A., Batool, S. H., Agarwal, N. K., Islam, M. A., Jayasekara, P. K., Dangol, R., Lamba, M., &amp; Mahmood, A. B. (2023). D/Misinformation on Social Media and the Role of the LIS Profession: A South Asian Perspective. <i>Zenodo (CERN European Organization for Nuclear Research)</i>. https://www.academia.edu/download/112363420/Malik_A_MY23_Panel.pdf</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-malik_dmisinformation_2023">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-malik_dmisinformation_2023">
+    <pre>@article{malik_dmisinformation_2023,
+  title = {D/{Misinformation} on {Social} {Media} and the {Role} of the {LIS} {Profession}: {A} {South} {Asian} {Perspective}},
+  shorttitle = {D/{Misinformation} on {Social} {Media} and the {Role} of the {LIS} {Profession}},
+  url = {https://www.academia.edu/download/112363420/Malik_A_MY23_Panel.pdf},
+  urldate = {2026-06-11},
+  journal = {Zenodo (CERN European Organization for Nuclear Research)},
+  author = {Malik, Amara and Batool, Syeda Hina and Agarwal, Naresh Kumar and Islam, Md Anwarul and Jayasekara, Prasadi Kanchana and Dangol, Reshma and Lamba, Manika and Mahmood, Abdul Baseer},
+  year = {2023},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/KZ36J8DV/Malik et al. - 2023 - DMisinformation on Social Media and the Role of the LIS Profession A South Asian Perspective.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="chan_equipping_2022">Chan, H., Chu, S., Gala, B., Islam, M. A., Batool, S. H., Bhardwaj, R. K., Lamba, M., &amp; Jayasekara, P. K. (2022). Equipping Students and Beyond with Sound \textlessspan style="font-variant:small-caps;"\textgreaterCOVID\textless/span\textgreater ‐19 Knowledge to Survive and Thrive Despite the Pandemic. <i>Proceedings of the Association for Information Science and Technology</i>, <i>59</i>(1), 633–635. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.673</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="chan_equipping_2022">Chan, H., Chu, S., Gala, B., Islam, M. A., Batool, S. H., Bhardwaj, R. K., Lamba, M., &amp; Jayasekara, P. K. (2022). Equipping Students and Beyond with Sound \textlessspan style="font-variant:small-caps;"\textgreaterCOVID\textless/span\textgreater ‐19 Knowledge to Survive and Thrive Despite the Pandemic. <i>Proceedings of the Association for Information Science and Technology</i>, <i>59</i>(1), 633–635. https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.673</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1002/pra2.673" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-chan_equipping_2022">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-chan_equipping_2022">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-chan_equipping_2022">
+    <pre>@article{chan_equipping_2022,
+  title = {Equipping {Students} and {Beyond} with {Sound} {\textless}span style="font-variant:small-caps;"{\textgreater}{COVID}{\textless}/span{\textgreater} ‐19 {Knowledge} to {Survive} and {Thrive} {Despite} the {Pandemic}},
+  volume = {59},
+  issn = {2373-9231, 2373-9231},
+  shorttitle = {Equipping {Students} and {Beyond} with {Sound} {\textless}span style="font-variant},
+  url = {https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.673},
+  doi = {10.1002/pra2.673},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Proceedings of the Association for Information Science and Technology},
+  author = {Chan, Helen and Chu, Sam and Gala, Bhakti and Islam, Md. Anwarul and Batool, Syeda Hina and Bhardwaj, Raj Kumar and Lamba, Manika and Jayasekara, Prasadi Kanchana},
+  month = oct,
+  year = {2022},
+  pages = {633--635}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-chan_equipping_2022">
+    <pre>ABSTRACT
+            The COVID‐19 pandemic necessitated the understanding of the infodemic for making informed decisions. Limiting the spread of health misinformation and disinformation was the primary goal of the health informatics project. The project became the recipient of the ASIS&amp;T “Chapter Innovation of the Year Award 2021”. A repertoire of online and offline initiatives was carried out with 9 well‐researched videos for promoting health informatics. Since August 2021, thousands of academics, librarians, teachers, parents, and students from 16 countries and regions were invited to be science communicators to create and disseminate accurate health information in their areas through an international digital story writing competition. In this paper, we will discuss the strategies of responding to the information crisis, including employing interventions that protect against the infodemic and mitigate its harmful effects, to strengthen the resilience of individuals and communities in dealing with it in an information‐resilient society.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="madhusudhan_changing_2021">Madhusudhan, M., &amp; Lamba, M. (2021). The changing roles of librarians: Managing emerging technologies in Libraries. <i>Quality Library Services in New Era</i>. https://www.researchgate.net/profile/Manika_Lamba3/publication/345005763_The_changing_roles_of_librarians_Managing_emerging_technologies_in_libraries/links/6086ee29907dcf667bc6f7b3/The-changing-roles-of-librarians-Managing-emerging-technologies-in-libraries.pdf</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="madhusudhan_changing_2021">Madhusudhan, M., &amp; Lamba, M. (2021). The changing roles of librarians: Managing emerging technologies in Libraries. <i>Quality Library Services in New Era</i>. https://www.researchgate.net/profile/Manika_Lamba3/publication/345005763_The_changing_roles_of_librarians_Managing_emerging_technologies_in_libraries/links/6086ee29907dcf667bc6f7b3/The-changing-roles-of-librarians-Managing-emerging-technologies-in-libraries.pdf</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-madhusudhan_changing_2021">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-madhusudhan_changing_2021">
+    <pre>@article{madhusudhan_changing_2021,
+  title = {The changing roles of librarians: {Managing} emerging technologies in {Libraries}},
+  shorttitle = {The changing roles of librarians},
+  url = {https://www.researchgate.net/profile/Manika_Lamba3/publication/345005763_The_changing_roles_of_librarians_Managing_emerging_technologies_in_libraries/links/6086ee29907dcf667bc6f7b3/The-changing-roles-of-librarians-Managing-emerging-technologies-in-libraries.pdf},
+  urldate = {2026-06-11},
+  journal = {Quality Library Services in New Era},
+  author = {Madhusudhan, Margam and Lamba, Manika},
+  year = {2021},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/Y2WDD4KU/Madhusudhan and Lamba - 2021 - The changing roles of librarians Managing emerging technologies in Libraries.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_research_2021">Lamba, M., Kashyap, N., &amp; Margam, M. (2021). Research evaluation of computer science publications using Altmetrics: a cohort study of Indian Central Universities. <i>Global Knowledge, Memory and Communication</i>, <i>70</i>(4-5), 459–486. https://www.emerald.com/gkmc/article/70/4-5/459/106284</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_research_2021">Lamba, M., Kashyap, N., &amp; Margam, M. (2021). Research evaluation of computer science publications using Altmetrics: a cohort study of Indian Central Universities. <i>Global Knowledge, Memory and Communication</i>, <i>70</i>(4-5), 459–486. https://www.emerald.com/gkmc/article/70/4-5/459/106284</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_research_2021">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_research_2021">
+    <pre>@article{lamba_research_2021,
+  title = {Research evaluation of computer science publications using {Altmetrics}: a cohort study of {Indian} {Central} {Universities}},
+  volume = {70},
+  shorttitle = {Research evaluation of computer science publications using {Altmetrics}},
+  url = {https://www.emerald.com/gkmc/article/70/4-5/459/106284},
+  number = {4-5},
+  urldate = {2026-06-11},
+  journal = {Global Knowledge, Memory and Communication},
+  publisher = {Emerald Publishing Limited},
+  author = {Lamba, Manika and Kashyap, Neha and Margam, Madhusudhan},
+  year = {2021},
+  pages = {459--486},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/7PUJAQ5P/Lamba et al. - 2021 - Research evaluation of computer science publications using Altmetrics a cohort study of Indian Cent.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_research_2020">Lamba, M. (2020). Research productivity of health care policy faculty: a cohort study of Harvard Medical School. <i>Scientometrics</i>, <i>124</i>(1), 107–130. https://link.springer.com/10.1007/s11192-020-03433-5</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_research_2020">Lamba, M. (2020). Research productivity of health care policy faculty: a cohort study of Harvard Medical School. <i>Scientometrics</i>, <i>124</i>(1), 107–130. https://link.springer.com/10.1007/s11192-020-03433-5</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1007/s11192-020-03433-5" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_research_2020">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_research_2020">
+    <pre>@article{lamba_research_2020,
+  title = {Research productivity of health care policy faculty: a cohort study of {Harvard} {Medical} {School}},
+  volume = {124},
+  issn = {0138-9130, 1588-2861},
+  shorttitle = {Research productivity of health care policy faculty},
+  url = {https://link.springer.com/10.1007/s11192-020-03433-5},
+  doi = {10.1007/s11192-020-03433-5},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Scientometrics},
+  author = {Lamba, Manika},
+  month = jul,
+  year = {2020},
+  pages = {107--130},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/NYYXL6PG/Lamba - 2020 - Research productivity of health care policy faculty a cohort study of Harvard Medical School.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="garg_bibliometric_2020">Garg, K. C., Lamba, M., &amp; Singh, R. K. (2020). Bibliometric Analysis of papers published during 1992 to 2019 in DESIDOC Journal of Library and Information Technology. <i>DESIDOC Journal of Library &amp; Information Technology</i>, <i>40</i>(06), 396–402. http://publicationsdrdo.in/index.php/djlit/article/view/15741</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="garg_bibliometric_2020">Garg, K. C., Lamba, M., &amp; Singh, R. K. (2020). Bibliometric Analysis of papers published during 1992 to 2019 in DESIDOC Journal of Library and Information Technology. <i>DESIDOC Journal of Library &amp; Information Technology</i>, <i>40</i>(06), 396–402. http://publicationsdrdo.in/index.php/djlit/article/view/15741</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-garg_bibliometric_2020">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-garg_bibliometric_2020">
+    <pre>@article{garg_bibliometric_2020,
+  title = {Bibliometric {Analysis} of papers published during 1992 to 2019 in {DESIDOC} {Journal} of {Library} and {Information} {Technology}},
+  volume = {40},
+  url = {http://publicationsdrdo.in/index.php/djlit/article/view/15741},
+  number = {06},
+  urldate = {2026-06-11},
+  journal = {DESIDOC Journal of Library \&amp; Information Technology},
+  author = {Garg, K. C. and Lamba, Manika and Singh, Rahul Kumar},
+  year = {2020},
+  pages = {396--402},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/ADIXTB2N/Garg et al. - 2020 - Bibliometric Analysis of papers published during 1992 to 2019 in DESIDOC Journal of Library and Info.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_text_2019">Lamba, M. (2019). <i>Text Analysis of ETDs in ProQuest Dissertations and Theses (PQDT) Global (2016-2018)</i>. arXiv:2406.06076 [cs.DL]. http://arxiv.org/abs/2406.06076</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_text_2019">Lamba, M. (2019). <i>Text Analysis of ETDs in ProQuest Dissertations and Theses (PQDT) Global (2016-2018)</i>. arXiv:2406.06076 [cs.DL]. http://arxiv.org/abs/2406.06076</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.5281/zenodo.3545907" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_text_2019">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lamba_text_2019">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_text_2019">
+    <pre>@article{lamba_text_2019,
+  title = {Text {Analysis} of {ETDs} in {ProQuest} {Dissertations} and {Theses} ({PQDT}) {Global} (2016-2018)},
+  url = {http://arxiv.org/abs/2406.06076},
+  doi = {10.5281/zenodo.3545907},
+  urldate = {2026-06-11},
+  author = {Lamba, Manika},
+  month = nov,
+  year = {2019},
+  note = {arXiv:2406.06076 [cs.DL]},
+  keywords = {Computer Science - Digital Libraries},
+  file = {Preprint PDF:/Users/manika/Zotero/storage/RPW6FWMQ/Lamba - 2019 - Text Analysis of ETDs in ProQuest Dissertations and Theses (PQDT) Global (2016-2018).pdf:application/pdf;Snapshot:/Users/manika/Zotero/storage/I69CLWCS/2406.html:text/html}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-lamba_text_2019">
+    <pre>The information explosion in the form of ETDs poses the challenge of management and extraction of appropriate knowledge for decision-making. Thus, the present study forwards a solution to the above problem by applying topic mining and prediction modeling tools to 263 ETDs submitted to the PQDT Global database during 2016-18 in the field of library science. This study was divided into two phases. The first phase determined the core topics from the ETDs using Topic-Modeling-Tool (TMT), which was based on latent dirichlet allocation (LDA), whereas the second phase employed prediction analysis using RapidMinerplatform to annotate the future research articles on the basis of the modeled topics. The core topics (tags) for the studied period were found to be book history, school librarian, public library, communicative ecology, and informatics followed by text network and trend analysis on the high probability cooccurred words. Lastly, a prediction model using Support Vector Machine (SVM) classifier was created in order to accurately predict the placement of future ETDs going to be submitted to PQDT Global under the five modeled topics (a to e). The tested dataset against the trained data set for the predictive performed perfectly.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_mapping_2019">Lamba, M., &amp; Madhusudhan, M. (2019). Mapping of topics in DESIDOC Journal of Library and Information Technology, India: a study. <i>Scientometrics</i>, <i>120</i>(2), 477–505. http://link.springer.com/10.1007/s11192-019-03137-5</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_mapping_2019">Lamba, M., &amp; Madhusudhan, M. (2019). Mapping of topics in DESIDOC Journal of Library and Information Technology, India: a study. <i>Scientometrics</i>, <i>120</i>(2), 477–505. http://link.springer.com/10.1007/s11192-019-03137-5</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1007/s11192-019-03137-5" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_mapping_2019">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_mapping_2019">
+    <pre>@article{lamba_mapping_2019,
+  title = {Mapping of topics in {DESIDOC} {Journal} of {Library} and {Information} {Technology}, {India}: a study},
+  volume = {120},
+  issn = {0138-9130, 1588-2861},
+  shorttitle = {Mapping of topics in {DESIDOC} {Journal} of {Library} and {Information} {Technology}, {India}},
+  url = {http://link.springer.com/10.1007/s11192-019-03137-5},
+  doi = {10.1007/s11192-019-03137-5},
+  language = {en},
+  number = {2},
+  urldate = {2026-06-11},
+  journal = {Scientometrics},
+  author = {Lamba, Manika and Madhusudhan, Margam},
+  month = aug,
+  year = {2019},
+  pages = {477--505},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/5ZTXKYJ2/Lamba and Madhusudhan - 2019 - Mapping of topics in DESIDOC Journal of Library and Information Technology, India a study.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_author-topic_2019">Lamba, M., &amp; Madhusudhan, M. (2019). <i>Author-topic modeling of DESIDOC journal of library and information technology (2008-2017), India</i>. https://scholarworks.sjsu.edu/libphilprac/2593/</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_author-topic_2019">Lamba, M., &amp; Madhusudhan, M. (2019). <i>Author-topic modeling of DESIDOC journal of library and information technology (2008-2017), India</i>. https://scholarworks.sjsu.edu/libphilprac/2593/</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_author-topic_2019">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_author-topic_2019">
+    <pre>@article{lamba_author-topic_2019,
+  title = {Author-topic modeling of {DESIDOC} journal of library and information technology (2008-2017), {India}},
+  url = {https://scholarworks.sjsu.edu/libphilprac/2593/},
+  urldate = {2026-06-11},
+  author = {Lamba, Manika and Madhusudhan, Margam},
+  year = {2019},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/3I87N8EG/Lamba and Madhusudhan - 2019 - Author-topic modeling of DESIDOC journal of library and information technology (2008-2017), India.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_application_2018">Lamba, M., &amp; Madhusudhan, M. (2018). Application of sentiment analysis in libraries to provide temporal information service: a case study on various facets of productivity. <i>Social Network Analysis and Mining</i>, <i>8</i>(1), 63. http://link.springer.com/10.1007/s13278-018-0541-y</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_application_2018">Lamba, M., &amp; Madhusudhan, M. (2018). Application of sentiment analysis in libraries to provide temporal information service: a case study on various facets of productivity. <i>Social Network Analysis and Mining</i>, <i>8</i>(1), 63. http://link.springer.com/10.1007/s13278-018-0541-y</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1007/s13278-018-0541-y" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_application_2018">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_application_2018">
+    <pre>@article{lamba_application_2018,
+  title = {Application of sentiment analysis in libraries to provide temporal information service: a case study on various facets of productivity},
+  volume = {8},
+  issn = {1869-5450, 1869-5469},
+  shorttitle = {Application of sentiment analysis in libraries to provide temporal information service},
+  url = {http://link.springer.com/10.1007/s13278-018-0541-y},
+  doi = {10.1007/s13278-018-0541-y},
+  language = {en},
+  number = {1},
+  urldate = {2026-06-11},
+  journal = {Social Network Analysis and Mining},
+  author = {Lamba, Manika and Madhusudhan, Margam},
+  month = dec,
+  year = {2018},
+  pages = {63},
+  file = {Available Version (via Google Scholar):/Users/manika/Zotero/storage/BI5EFQAT/Lamba and Madhusudhan - 2018 - Application of sentiment analysis in libraries to provide temporal information service a case study.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li></ol>
+
+  <h3>Refereed Conference Proceedings</h3>
+
+  <ol class="bibliography" reversed="reversed"><li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="shen_automation_2026">Shen, H., Chen, J., Gumusel, E., Liu, Z., Wei, M., Jiang, W., Lamba, M., &amp; Zho, K. (2026, June). Automation at Odds with User Experience: Understanding Public Perceptions of Customer Service Chatbots in China. <i>Proceedings of the 2026 29th International Conference on Computer Supported Cooperative Work in Design</i>.</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="shen_automation_2026">Shen, H., Chen, J., Gumusel, E., Liu, Z., Wei, M., Jiang, W., Lamba, M., &amp; Zho, K. (2026, June). Automation at Odds with User Experience: Understanding Public Perceptions of Customer Service Chatbots in China. <i>Proceedings of the 2026 29th International Conference on Computer Supported Cooperative Work in Design</i>.</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-shen_automation_2026">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-shen_automation_2026">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-shen_automation_2026">
+    <pre>@inproceedings{shen_automation_2026,
+  title = {Automation at {Odds} with {User} {Experience}: {Understanding} {Public} {Perceptions} of {Customer} {Service} {Chatbots} in {China}},
+  shorttitle = {Automation at {Odds} with {User} {Experience}},
+  booktitle = {Proceedings of the 2026 29th {International} {Conference} on {Computer} {Supported} {Cooperative} {Work} in {Design}},
+  author = {Shen, Haiqi and Chen, Justin and Gumusel, Ece and Liu, Zexuan and Wei, Mengyi and Jiang, Wensi and Lamba, Manika and Zho, Kyrie},
+  month = jun,
+  year = {2026},
+  file = {Full Text PDF:/Users/manika/Zotero/storage/4DQYCZWI/Shen et al. - 2026 - Automation at Odds with User Experience Understanding Public Perceptions of Customer Service Chatbo.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-shen_automation_2026">
+    <pre>Customer service chatbots benefit businesses by automating workflows, reducing labor costs, and handling large volumes of user queries. However, users tend to complain about the suboptimal performance of these chatbots, leading to implications for user retention and experience. To understand user experience and perceptions and to navigate the balance between corporate goals and user experiences, we conducted a qualitative analysis of comments collected from Rednote (Xiaohongshu) on customer service chatbots. Our results reveal divided user experiences that point to a significant sociotechnical misalignment between automated efficiency and human-centric service needs. Specifically, we identify systemic trade-offs where aggressive corporate cost-reduction leads to digital exclusion and a crisis of user agency. This conflict necessitates greater attention to service quality, inclusiveness, and the social impact of AI-based services. Finally, we provided recommendations to enhance the user experience of customer service chatbots.</pre>
+  </div>
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_acksent_2024">Lamba, M., Peng, Y., Nikolov, S., &amp; Downie, J. S. (2024). AckSent: Human Annotated Dataset of Support and Sentiments in Dissertation Acknowledgments. <i>Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries</i>, 1–5. https://dl.acm.org/doi/10.1145/3677389.3702594</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_acksent_2024">Lamba, M., Peng, Y., Nikolov, S., &amp; Downie, J. S. (2024). AckSent: Human Annotated Dataset of Support and Sentiments in Dissertation Acknowledgments. <i>Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries</i>, 1–5. https://dl.acm.org/doi/10.1145/3677389.3702594</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+      
+      <a href="http://doi.org/10.1145/3677389.3702594" target="_blank" class="btn-pill btn-doi">DOI</a>
+      
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_acksent_2024">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_acksent_2024">
+    <pre>@inproceedings{lamba_acksent_2024,
+  address = {Hong Kong China},
+  title = {{AckSent}: {Human} {Annotated} {Dataset} of {Support} and {Sentiments} in {Dissertation} {Acknowledgments}},
+  isbn = {979-8-4007-1093-3},
+  shorttitle = {{AckSent}},
+  url = {https://dl.acm.org/doi/10.1145/3677389.3702594},
+  doi = {10.1145/3677389.3702594},
+  language = {en},
+  urldate = {2026-06-11},
+  booktitle = {Proceedings of the 24th {ACM}/{IEEE} {Joint} {Conference} on {Digital} {Libraries}},
+  publisher = {ACM},
+  author = {Lamba, Manika and Peng, You and Nikolov, Sophie and Downie, John Stephen},
+  month = dec,
+  year = {2024},
+  pages = {1--5}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <div class="text-justify"><span id="lamba_visualizing_2022">Lamba, M. (2022). <i>Visualizing the Pace of COVID-19 Research: An Experimental Study of All India Institute of Medical Sciences (AIIMS), New Delhi</i>.</span></div>
+
+  <!-- You can use the below to make your name bold -->
+  <!-- <div class="text-justify"><span id="lamba_visualizing_2022">Lamba, M. (2022). <i>Visualizing the Pace of COVID-19 Research: An Experimental Study of All India Institute of Medical Sciences (AIIMS), New Delhi</i>.</span></div> -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-lamba_visualizing_2022">BIB</button>
+    
+
+    
+    <button class="btn-pill btn-abstract" data-toggle-target="abs-lamba_visualizing_2022">Abstract</button>
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-lamba_visualizing_2022">
+    <pre>@inproceedings{lamba_visualizing_2022,
+  address = {Delhi, India},
+  title = {Visualizing the {Pace} of {COVID}-19 {Research}: {An} {Experimental} {Study} of {All} {India} {Institute} of {Medical} {Sciences} ({AIIMS}), {New} {Delhi}},
+  language = {en},
+  author = {Lamba, Manika},
+  year = {2022},
+  file = {PDF:/Users/manika/Zotero/storage/IEYYCCL8/Lamba - 2022 - Visualizing the Pace of COVID-19 Research An Experimental Study of All India Institute of Medical S.pdf:application/pdf}
+}
+</pre>
+  </div>
+  
+
+  
+  <div class="pub-collapse" id="abs-lamba_visualizing_2022">
+    <pre>With the emergence of a new variant of coronavirus in 2019, it became important to devote a significant amount of time to reading and identifying relevant studies to better understand COVID-19. It is urgent to sort out important, effective, and meaningful information from large databases to guide scientific research and promote the proper con-trol, prevention, diagnosis, and treatment of COVID-19. Thus, this paper presents an experimental study that shows the application of topic modeling, and data visualization for COVID-19 research from 2010 to 2021 for the All India Institute of Medical Sciences (AIIMS), New Delhi, India. The results unveil the focus of scientific research, thereby giving deep in-sights into how the Indian medical society contributes to combating the COVID-19 pandemic.</pre>
+  </div>
+  
+</div>
+</li></ol>
+</div>
+
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>
+        Manika Lamba<br>
+        Assistant Professor<br>
+        Bizzell Library 118E, University of Oklahoma
+      </p>
     </div>
-
-    <!-- Footer -->
-    
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      © Copyright 2024
-      Manika
-      
-      Lamba. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-
-      
-      
-        Last updated: July 11, 2024.
-      
+    <div>
+      <h5>Contact</h5>
+      <p>
+        <a href="mailto:manika@ou.edu"><i class="fa-solid fa-envelope"></i> manika@ou.edu</a><br>
+        <a href="https://github.com/manika-lamba"><i class="fa-brands fa-github"></i> GitHub</a><br>
+      </p>
     </div>
-  </footer>
+    <div>
+      <h5>Links</h5>
+      <p>
+        <a href="https://scholar.google.com/citations?user=sfRS9iwAAAAJ"><i class="ai ai-google-scholar"></i> Google Scholar</a><br>
+        
+        <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa-brands fa-github"></i> Use this template!</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      &copy; 2026 Manika Lamba
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/site.min.js"></script>
 
 
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- Bootsrap & MDB scripts -->
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
-<!-- <script src="/assets/js/mdb.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    
-  <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
-
-
-
-<!-- Bootstrap Table -->
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-<script defer src="/assets/js/common.js?b7816bd189846d29eded8745f9c4cf77"></script>
-<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
-
-<!-- Jupyter Open External Links New Tab -->
-<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
-
-
-
-    
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-
-
-    
-  
-    <!-- MathJax -->
-    <script type="text/javascript">
-      window.MathJax = {
-        tex: {
-          tags: 'ams',
-        },
-      };
-    </script>
-    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.min.js" integrity="sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4=" crossorigin="anonymous"></script>
-    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
-  
-
-
-    
-
-    
-
-
-    
-  <!-- Scrolling Progress Bar -->
-  <script type="text/javascript">
-    /*
-     * This JavaScript code has been adapted from the article
-     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
-     * published on the website https://css-tricks.com on the 7th of May, 2014.
-     * Couple of changes were made to the original code to make it compatible
-     * with the `al-foio` theme.
-     */
-    const progressBar = $('#progress');
-    /*
-     * We set up the bar after all elements are done loading.
-     * In some cases, if the images in the page are larger than the intended
-     * size they'll have on the page, they'll be resized via CSS to accomodate
-     * the desired size. This mistake, however, breaks the computations as the
-     * scroll size is computed as soon as the elements finish loading.
-     * To account for this, a minimal delay was introduced before computing the
-     * values.
-     */
-    window.onload = function () {
-      setTimeout(progressBarSetup, 50);
-    };
-    /*
-     * We set up the bar according to the browser.
-     * If the browser supports the progress element we use that.
-     * Otherwise, we resize the bar thru CSS styling
-     */
-    function progressBarSetup() {
-      if ('max' in document.createElement('progress')) {
-        initializeProgressElement();
-        $(document).on('scroll', function () {
-          progressBar.attr({ value: getCurrentScrollPosition() });
-        });
-        $(window).on('resize', initializeProgressElement);
-      } else {
-        resizeProgressBar();
-        $(document).on('scroll', resizeProgressBar);
-        $(window).on('resize', resizeProgressBar);
-      }
-    }
-    /*
-     * The vertical scroll position is the same as the number of pixels that
-     * are hidden from view above the scrollable area. Thus, a value > 0 is
-     * how much the user has scrolled from the top
-     */
-    function getCurrentScrollPosition() {
-      return $(window).scrollTop();
-    }
-
-    function initializeProgressElement() {
-      let navbarHeight = $('#navbar').outerHeight(true);
-      $('body').css({ 'padding-top': navbarHeight });
-      $('progress-container').css({ 'padding-top': navbarHeight });
-      progressBar.css({ top: navbarHeight });
-      progressBar.attr({
-        max: getDistanceToScroll(),
-        value: getCurrentScrollPosition(),
-      });
-    }
-    /*
-     * The offset between the html document height and the browser viewport
-     * height will be greater than zero if vertical scroll is possible.
-     * This is the distance the user can scroll
-     */
-    function getDistanceToScroll() {
-      return $(document).height() - $(window).height();
-    }
-
-    function resizeProgressBar() {
-      progressBar.css({ width: getWidthPercentage() + '%' });
-    }
-    // The scroll ratio equals the percentage to resize the bar
-    function getWidthPercentage() {
-      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-    }
-  </script>
-
-
-    
-
-    
-
-    
-
-    <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
-<script>
-  
-    addBackToTop();
-  
-</script>
-
-    
-  <script type="module" src="/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
-  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
-  <script>
-    let theme = determineComputedTheme();
-    const ninjaKeys = document.querySelector('ninja-keys');
-
-    if (theme === 'dark') {
-      ninjaKeys.classList.add('dark');
-    } else {
-      ninjaKeys.classList.remove('dark');
-    }
-
-    const openSearchModal = () => {
-      // collapse navbarNav if expanded on mobile
-      const $navbarNav = $('#navbarNav');
-      if ($navbarNav.hasClass('show')) {
-        $navbarNav.collapse('hide');
-      }
-      ninjaKeys.open();
-    };
-  </script>
-  <script>
-    // get the ninja-keys element
-    const ninja = document.querySelector('ninja-keys');
-
-    // add the home and posts menu items
-    ninja.data = [{
-        id: "nav-about",
-        title: "About",
-        section: "Navigation",
-        handler: () => {
-          window.location.href = "/";
-        },
-      },{id: "nav-publications",
-              title: "Publications",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "nav-projects",
-              title: "Projects",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/projects/";
-              },
-            },{id: "nav-lab-members",
-              title: "Lab Members",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/people/";
-              },
-            },{id: "dropdown-cv",
-                  title: "CV",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-teaching",
-                  title: "Teaching",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-books",
-                  title: "Books",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-talks",
-                  title: "Talks",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-professional-services",
-                  title: "Professional Services",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-news",
-                  title: "News",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "post-a-post-with-tabs",
-          
-            title: "a post with tabs",
-          
-          description: "this is what included tabs in a post could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/tabs/";
-            
-          },
-        },{id: "post-a-post-with-typograms",
-          
-            title: "a post with typograms",
-          
-          description: "this is what included typograms code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/typograms/";
-            
-          },
-        },{id: "post-a-post-that-can-be-cited",
-          
-            title: "a post that can be cited",
-          
-          description: "this is what a post that can be cited looks like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/post-citation/";
-            
-          },
-        },{id: "post-a-post-with-pseudo-code",
-          
-            title: "a post with pseudo code",
-          
-          description: "this is what included pseudo code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/pseudocode/";
-            
-          },
-        },{id: "post-a-post-with-code-diff",
-          
-            title: "a post with code diff",
-          
-          description: "this is how you can display code diffs",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/code-diff/";
-            
-          },
-        },{id: "post-a-post-with-advanced-image-components",
-          
-            title: "a post with advanced image components",
-          
-          description: "this is what advanced image components could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/advanced-images/";
-            
-          },
-        },{id: "post-a-post-with-vega-lite",
-          
-            title: "a post with vega lite",
-          
-          description: "this is what included vega lite code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/vega-lite/";
-            
-          },
-        },{id: "post-a-post-with-geojson",
-          
-            title: "a post with geojson",
-          
-          description: "this is what included geojson code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/geojson-map/";
-            
-          },
-        },{id: "post-a-post-with-echarts",
-          
-            title: "a post with echarts",
-          
-          description: "this is what included echarts code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/echarts/";
-            
-          },
-        },{id: "post-a-post-with-chart-js",
-          
-            title: "a post with chart.js",
-          
-          description: "this is what included chart.js code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2024/chartjs/";
-            
-          },
-        },{id: "post-a-post-with-tikzjax",
-          
-            title: "a post with TikZJax",
-          
-          description: "this is what included TikZ code could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/tikzjax/";
-            
-          },
-        },{id: "post-a-post-with-bibliography",
-          
-            title: "a post with bibliography",
-          
-          description: "an example of a blog post with bibliography",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/post-bibliography/";
-            
-          },
-        },{id: "post-a-post-with-jupyter-notebook",
-          
-            title: "a post with jupyter notebook",
-          
-          description: "an example of a blog post with jupyter notebook",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/jupyter-notebook/";
-            
-          },
-        },{id: "post-a-post-with-custom-blockquotes",
-          
-            title: "a post with custom blockquotes",
-          
-          description: "an example of a blog post with custom blockquotes",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/custom-blockquotes/";
-            
-          },
-        },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-          
-            title: "a post with table of contents on a sidebar",
-          
-          description: "an example of a blog post with table of contents on a sidebar",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/sidebar-table-of-contents/";
-            
-          },
-        },{id: "post-a-post-with-audios",
-          
-            title: "a post with audios",
-          
-          description: "this is what included audios could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/audios/";
-            
-          },
-        },{id: "post-a-post-with-videos",
-          
-            title: "a post with videos",
-          
-          description: "this is what included videos could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/videos/";
-            
-          },
-        },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-          
-            title: "displaying beautiful tables with Bootstrap Tables",
-          
-          description: "an example of how to use Bootstrap Tables",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/tables/";
-            
-          },
-        },{id: "post-a-post-with-table-of-contents",
-          
-            title: "a post with table of contents",
-          
-          description: "an example of a blog post with table of contents",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2023/table-of-contents/";
-            
-          },
-        },{id: "post-a-post-with-giscus-comments",
-          
-            title: "a post with giscus comments",
-          
-          description: "an example of a blog post with giscus comments",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2022/giscus-comments/";
-            
-          },
-        },{id: "post-a-post-with-redirect",
-          
-            title: "a post with redirect",
-          
-          description: "you can also redirect to assets like pdf",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/assets/pdf/example_pdf.pdf";
-            
-          },
-        },{id: "post-a-post-with-diagrams",
-          
-            title: "a post with diagrams",
-          
-          description: "an example of a blog post with diagrams",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2021/diagrams/";
-            
-          },
-        },{id: "post-a-distill-style-blog-post",
-          
-            title: "a distill-style blog post",
-          
-          description: "an example of a distill-style blog post and main elements",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2021/distill/";
-            
-          },
-        },{id: "post-a-post-with-github-metadata",
-          
-            title: "a post with github metadata",
-          
-          description: "a quick run down on accessing github metadata.",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2020/github-metadata/";
-            
-          },
-        },{id: "post-a-post-with-twitter",
-          
-            title: "a post with twitter",
-          
-          description: "an example of a blog post with twitter",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2020/twitter/";
-            
-          },
-        },{id: "post-a-post-with-disqus-comments",
-          
-            title: "a post with disqus comments",
-          
-          description: "an example of a blog post with disqus comments",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2015/disqus-comments/";
-            
-          },
-        },{id: "post-a-post-with-math",
-          
-            title: "a post with math",
-          
-          description: "an example of a blog post with some math",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2015/math/";
-            
-          },
-        },{id: "post-a-post-with-code",
-          
-            title: "a post with code",
-          
-          description: "an example of a blog post with some code",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2015/code/";
-            
-          },
-        },{id: "post-a-post-with-images",
-          
-            title: "a post with images",
-          
-          description: "this is what included images could look like",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2015/images/";
-            
-          },
-        },{id: "post-a-post-with-formatting-and-links",
-          
-            title: "a post with formatting and links",
-          
-          description: "march &amp; april, looking forward to summer",
-          section: "Posts",
-          handler: () => {
-            
-              window.location.href = "/blog/2015/formatting-and-links/";
-            
-          },
-        },{id: "news-both-my-co-authored-posters-i-lt-strong-gt-putting-people-first-in-data-quality-feminist-data-ethics-for-open-government-datasets-lt-strong-gt-and-ii-lt-strong-gt-torchlite-new-open-analytical-tools-and-infrastructure-for-a-mega-scale-digital-library-lt-strong-gt-acceptance-rate-51-got-accepted-for-lt-a-href-quot-https-www-asist-org-meetings-events-am-am24-quot-gt-87th-annual-meeting-of-the-association-for-information-science-and-technology-lt-a-gt-calgary-canada",
-          title: 'Both my co-authored posters– (i) &lt;strong&gt;Putting People First in Data Quality: Feminist Data Ethics for Open Government Datasets&lt;/strong&gt; and (ii) &lt;strong&gt;TORCHLITE: New, Open Analytical Tools and Infrastructure for a Mega-Scale Digital Library&lt;/strong&gt; (acceptance rate - 51%) got accepted for  &lt;a href=&quot;https://www.asist.org/meetings-events/am/am24/&quot;&gt;87th Annual Meeting of the Association for Information Science and Technology&lt;/a&gt;, Calgary, Canada',
-          description: "",
-          section: "News",},{id: "news-our-paper-on-lt-a-href-quot-https-arxiv-org-abs-2406-07730-quot-gt-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-quot-it-answers-questions-that-i-didn-39-t-know-i-had-quot-ph-d-students-39-evaluation-of-an-information-sharing-knowledge-graph-lt-code-gt-lt-a-gt-got-accepted-in-lt-em-gt-digital-library-perspectives-lt-em-gt-journal-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-doi-10-1108-dlp-02-2024-0025-lt-code-gt",
-          title: 'Our paper on &lt;a href=&quot;https://arxiv.org/abs/2406.07730&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;It answers questions that I didn&#39;t know I had&quot;: Ph.D. Students&#39; Evaluation of an Information Sharing Knowledge Graph&lt;/code&gt;&lt;/a&gt; got accepted in &lt;em&gt;Digital Library Perspectives&lt;/em&gt; journal! &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOI:10.1108/DLP-02-2024-0025&lt;/code&gt;',
-          description: "",
-          section: "News",},{id: "news-lt-h3-id-quot-new-pre-prints-quot-gt-new-pre-prints-lt-h3-gt-lt-ol-gt-lt-li-gt-faizhal-arif-santosa-lt-strong-gt-manika-lamba-lt-strong-gt-crissandra-j-george-j-stephen-downie-2024-lt-a-href-quot-https-arxiv-org-abs-2406-05949-quot-gt-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-coconut-libtool-bridging-textual-analysis-gaps-for-non-programmers-lt-code-gt-lt-a-gt-in-lt-a-href-quot-https-www-asist-org-meetings-events-am-am24-quot-gt-lt-em-gt-87th-annual-meeting-of-the-association-for-information-science-and-technology-lt-em-gt-lt-a-gt-calgary-canada-lt-em-gt-acceptance-rate-30-lt-em-gt-lt-a-href-quot-https-www-coconut-libtool-com-quot-gt-dashboard-lt-a-gt-lt-li-gt-lt-li-gt-lt-strong-gt-manika-lamba-lt-strong-gt-and-hendrik-erz-lt-a-href-quot-https-arxiv-org-abs-2406-06006-quot-gt-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-thanking-the-world-exploring-gender-based-differences-in-acknowledgment-patterns-and-support-systems-in-theses-systems-in-theses-lt-code-gt-lt-a-gt-under-review-arxiv-lt-li-gt-lt-li-gt-brady-lund-lt-strong-gt-manika-lamba-lt-strong-gt-sang-hoo-oh-lt-a-href-quot-https-arxiv-org-abs-2406-06009-quot-gt-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-the-impact-of-ai-on-academic-research-and-publishing-lt-code-gt-lt-a-gt-under-review-arxiv-lt-li-gt-lt-ol-gt",
-          title: '&lt;h3 id=&quot;new-pre-prints&quot;&gt;New Pre-prints!&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    Faizhal Arif Santosa, &lt;strong&gt;Manika Lamba&lt;/strong&gt;, Crissandra J. George, J. Stephen Downie. (2024). &lt;a href=&quot;https://arxiv.org/abs/2406.05949&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coconut LibTool: Bridging Textual Analysis Gaps for Non-Programmers&lt;/code&gt;&lt;/a&gt;. In &lt;a href=&quot;https://www.asist.org/meetings-events/am/am24/&quot;&gt;&lt;em&gt;87th Annual Meeting of the Association for Information Science and Technology&lt;/em&gt;&lt;/a&gt;, Calgary, Canada. &lt;em&gt;(acceptance rate: 30%)&lt;/em&gt; &lt;a href=&quot;https://www.coconut-libtool.com/&quot;&gt;[Dashboard]&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;Manika Lamba&lt;/strong&gt; and Hendrik Erz. &lt;a href=&quot;https://arxiv.org/abs/2406.06006&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Thanking the World: Exploring Gender-Based Differences in Acknowledgment Patterns and Support Systems in Theses Systems in Theses&lt;/code&gt;&lt;/a&gt; (Under Review) [arXiv]
-  &lt;/li&gt;
-  &lt;li&gt;
-    Brady Lund, &lt;strong&gt;Manika Lamba&lt;/strong&gt;, Sang Hoo Oh. &lt;a href=&quot;https://arxiv.org/abs/2406.06009&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The Impact of AI on Academic Research and
- Publishing&lt;/code&gt;&lt;/a&gt; (Under Review) [arXiv]
-  &lt;/li&gt;
-&lt;/ol&gt;',
-          description: "",
-          section: "News",},{id: "news-both-my-co-authored-papers-i-lt-strong-gt-coconut-libtool-bridging-textual-analysis-gaps-for-non-programmers-lt-strong-gt-acceptance-rate-30-and-ii-lt-strong-gt-factors-influencing-professional-associations-member-engagement-online-an-information-practices-approach-lt-strong-gt-acceptance-rate-32-got-accepted-for-lt-a-href-quot-https-www-asist-org-meetings-events-am-am24-quot-gt-87th-annual-meeting-of-the-association-for-information-science-and-technology-lt-a-gt-calgary-canada",
-          title: 'Both my co-authored papers – (i) &lt;strong&gt;Coconut LibTool: Bridging Textual Analysis Gaps for Non-Programmers&lt;/strong&gt; (acceptance rate - 30%) and (ii) &lt;strong&gt;Factors Influencing Professional Associations’ Member Engagement Online: An ”Information Practices” Approach&lt;/strong&gt; (acceptance rate - 32%) got accepted for &lt;a href=&quot;https://www.asist.org/meetings-events/am/am24/&quot;&gt;87th Annual Meeting
-of the Association for Information Science and Technology&lt;/a&gt;, Calgary, Canada',
-          description: "",
-          section: "News",},{id: "news-our-poster-on-lt-a-href-quot-https-www-ideals-illinois-edu-items-130413-quot-gt-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-knowledge-graph-for-academic-libraries-a-user-centered-design-approach-lt-code-gt-lt-a-gt-got-accepted-for-the-2024-american-library-association-ala-conference-at-san-diego-lt-a-href-quot-https-annual2024-eventscribe-net-index-asp-prestarget-2690781-quot-gt-https-annual2024-eventscribe-net-index-asp-prestarget-2690781-lt-a-gt",
-          title: 'Our poster on &lt;a href=&quot;https://www.ideals.illinois.edu/items/130413&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Knowledge Graph for Academic Libraries: A User-Centered Design Approach&lt;/code&gt;&lt;/a&gt; got accepted for the 2024 American Library Association (ALA) Conference at San Diego! &lt;a href=&quot;https://annual2024.eventscribe.net/index.asp?presTarget=2690781&quot;&gt;https://annual2024.eventscribe.net/index.asp?presTarget=2690781&lt;/a&gt;',
-          description: "",
-          section: "News",},{id: "projects-coconut-libtool",
-              title: 'Coconut Libtool',
-              description: "All-in-one data mining and textual analysis tool for everyone",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/coconut-libtool/";
-                },},{id: "projects-analysis-of-covid-19-research",
-              title: 'Analysis of COVID-19 Research',
-              description: "This is a pilot project which was analysed and executed in April 2021 to presents the research productivity of AIIMS, New Delhi on covid-19/coronavirus literature using R programming language",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/covid-research/";
-                },},{id: "projects-a-dataset-of-gender-and-politics-research",
-              title: 'A Dataset of Gender and Politics Research',
-              description: "We introduce a comprehensive dataset of articles published in 37 political science journals through 2019 that can be considered “gender and politics” research",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/gender/";
-                },},{id: "projects-dealing-with-covid-19-and-saving-people-s-lives-in-south-asia-sa-areas-and-beyond",
-              title: 'Dealing with COVID-19 and Saving People’s Lives in South Asia (SA) Areas and Beyond',
-              description: "A Health Informatics Project on COVID-19 from ASIS&amp;T South Asia Chapter",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/sa-asist/";
-                },},{id: "projects-visualizing-topic-models-of-indian-lis-research",
-              title: 'Visualizing Topic Models of Indian LIS Research',
-              description: "I identified core topics of full-text LIS Electronic Theses and Dissertations using Topic-Modeling-Toolkit for the period of 2013-2017 and visualized it using Tableau",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/shodhganga/";
-                },},{
-            id: 'socials-email',
-            title: 'Send email',
-            section: 'Socials',
-            handler: () => {
-              window.open("mailto:%6C%61%6D%62%61%6D%61%6E%69%6B%61%30%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-            },
-          },{
-            id: 'socials-orcid',
-            title: 'ORCID',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://orcid.org/0000-0002-2022-3098", "_blank");
-            },
-          },{
-            id: 'socials-google-scholar',
-            title: 'Google Scholar',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://scholar.google.com/citations?user=sfRS9iwAAAAJ", "_blank");
-            },
-          },{
-            id: 'socials-github',
-            title: 'GitHub',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://github.com/manika-lamba", "_blank");
-            },
-          },{
-            id: 'socials-linkedin',
-            title: 'LinkedIn',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.linkedin.com/in/manika-lamba-phd-978282a2", "_blank");
-            },
-          },{
-            id: 'socials-bluesky',
-            title: 'Bluesky',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://bsky.app/profile/manika.bsky.social", "_blank");
-            },
-          },{
-          id: 'light-theme',
-          title: 'Change theme to light',
-          description: 'Change the theme of the site to Light',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("light");
-          },
-        },
-        {
-          id: 'dark-theme',
-          title: 'Change theme to dark',
-          description: 'Change the theme of the site to Dark',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("dark");
-          },
-        },
-        {
-          id: 'system-theme',
-          title: 'Use system default theme',
-          description: 'Change the theme of the site to System Default',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("system");
-          },
-        },];
-  </script>
-
-
-    <script src="/assets/js/shortcut-key.js"></script>
   </body>
+
 </html>
