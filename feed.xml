@@ -5,7 +5,7 @@
     <description>Academic webpage of Dr. Manika Lamba</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 23 Jun 2026 18:50:40 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 19:05:44 -0500</lastBuildDate>
     
     <item>
       <title>Great Mathematicians and Physicists</title>
