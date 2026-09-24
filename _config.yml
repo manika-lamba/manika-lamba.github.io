@@ -38,8 +38,10 @@ analytics:
 nav_pages:
   - name: publications
   - name: software & data
-  - name: team
+  - name: lab
   - name: hicss27
+  - name: dc-jcdl26
+  - name: mw-symposium2025
   - name: teaching
   - name: talks
 
