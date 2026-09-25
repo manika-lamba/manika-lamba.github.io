@@ -36,14 +36,12 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
+  - name: research 
   - name: publications
-  - name: software & data
   - name: lab
-  - name: hicss27
-  - name: dc-jcdl26
-  - name: mw-symposium2025
   - name: teaching
   - name: talks
+  - name: service
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
