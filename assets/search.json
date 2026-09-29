@@ -1,0 +1,65 @@
+[{
+  "title": "About",
+  "url": "/about/",
+  "content": "\n\n\n\n  \n    \n    \n      Manika Lamba\n      Assistant Professor, Bizzell Library 118E, University of Oklahoma\n      \n        \n\n\n\n\n      \n\n    \n  \n\n\n\n\n\n"
+},{
+  "title": "News",
+  "url": "/allnews.html",
+  "content": "News\n\n\n\n\n\n28 September, 2026\nOur paper on \"AI Ethics Curriculum in iSchools -- A Content Analysis of Ethics Topics in AI-Related Courses\" got accepted in the Journal of Education for Library and Information Science (JELIS)!\n\n\n\n31 May, 2026\nThree extended abstracts have been accepted to present as posters at the 2026 ICSSI conference in Boulder, Colorado!\n\n\n\n21 February, 2026\nAwarded the OU OVRP Junior Faculty Fellowship  ($7,000) to support the development of \"OpenCoder: An AI-Assisted Open Tool for Qualitative Research\"\n\n\n\n21 February, 2026\nMinitrack on \"Accessibility, Justice, and Critical AI in Sociotechnical Systems\" accepted to the 60th Hawaii International Conference on Systems Sciences\n\n\n\n\n"
+},{
+  "title": "Research",
+  "url": "/research/",
+  "content": "Current Research Themes Knowledge infrastructure is only visible when it fails. Metadata errors erase scholarship. Computational tools locked behind programming expertise exclude entire professional communities. My research sits at the intersection of computational methods and information infrastructure, studying how knowledge gets organized, and accessed. My research addresses three connected areas: Accessible and Accountable Research Tools Powerful methods are of limited use when researchers cannot access them or inspect how they work. I ask how tools can support people with different levels of technical experience while keeping researchers involved in consequential decisions. OpenCoder, an AI assisted open tool for qualitative research in development, is part of this work, alongside my earlier work on Coconut Libtool. Data Documentation and Responsible Reuse Data can travel far beyond the project in which it was created. Without clear documentation, later users may miss how it was collected, categorized, or intended to be used. My work on data documentation asks what researchers need to know about a dataset to interpret and reuse it responsibly. Additionally, I examine where metadata, open datasets, and classification systems introduce errors or encode inequities that affect the communities they describe. This theme also connects to my research on data quality, metadata,..."
+},{
+  "title": "Blog",
+  "url": "/blogs/",
+  "content": "Blog\n\n\n\n\nMay 31, 2024\nGreat Mathematicians and Physicists\n\n\n\nNov 28, 1961\nSpace-Time\n\n\n\n\n"
+},{
+  "title": "Doctoral Consortium (JCDL26)",
+  "url": "/dc-jcdl26/",
+  "content": "\n\n\n\nIf you are not redirected automatically,\nclick here.\n"
+},{
+  "title": "HICSS27",
+  "url": "/hicss27/",
+  "content": "\n\n\n\nIf you are not redirected automatically,\nclick here.\n"
+},{
+  "title": "Home",
+  "url": "/",
+  "content": "Manika Lamba Assistant Professor, University of Oklahoma Knowledge Infrastructure Human-Computer Interactions Social Computing Critical AI Studies I am an Assistant Professor in the School of Library &amp; Information Studies at the University of Oklahoma. Before joining the University of Oklahoma, I was a Postdoctoral Research Associate at the HathiTrust Research Center in the School of Information Sciences, University of Illinois Urbana-Champaign. My research sits at the intersection of knowledge organization, social computing, and critical AI studies. I examine how knowledge is organized, represented, discovered, and accessed across scholarly and digital information systems. I use large language models, natural language processing, and machine learning alongside user-centered methods to study how people create, share, and encounter knowledge through digital platforms and to develop more inclusive, and accessible information systems. My research has received support from the University of Oklahoma, Princeton University, National Science Foundation through a microgrant and the Innovation Corps (I-Corps), Association for Information Science and Technology (ASIS&amp;T), and Summer Institutes in Computational Social Science (SICSS). Author of Text Mining for Information Professionals: An Uncharted Territory Author Website I will be recruiting multiple PhD and master students from the iSchool (primarily) and other OU programs. If you are interested in working..."
+},{
+  "title": "Lab",
+  "url": "/lab/",
+  "content": "Text-as-Data (TaDa) Research Group We are always looking for new team members. If you are interested in working with me, please read through mentorship section carefully. I am always excited to hear from motivated students! PI Manika Lamba Assistant Professor, University of Oklahoma Current Members Victor Oladeji PhD Student (Information Studies, OU) Natalie Elliot PhD Student (Philosophy, OU) Isabella Bassett Masters Student (LIS, OU) Varun Sayapaneni Research Informatics Specialist (OU Libraries) Graeme Newhouse Undergraduate Student (English, OU) Sabusiswa Nxumalo Undergraduate Student (Information Studies, OU) Tam Le Undergraduate Student (Computer Engineering, OU) Past Members NameDurationCurrent Position You Peng 2023-2025 PhD student at UIUC Sophie Nikolov 2023-2024 Market Research Analyst at Leviton Haley Shepherd 2024 Exhibitions Archive Intern at Wexner Center for the Arts Manali Teki 2024 PhD student at North Carolina State University Yujia Wei 2024 AI Development Engineer at SeaBridge Sustainability Hewei Tang 2024 AI Research Programmer at Risksis Technology Limited (Hong Kong) Patrick Mulcahy 2024 Applying for Masters Program Mentorship Interested in working with me? Please read this before reaching out to me. I have multiple openings for Fall 2027 for Ph.D. in iSchool. Apply to the Ph.D. in Information Studies at the University of Oklahoma and list Dr...."
+},{
+  "title": "Forging Ahead",
+  "url": "/mw-symposium2025/",
+  "content": "\n\n\n\nIf you are not redirected automatically,\nclick here.\n"
+},{
+  "title": "Publications",
+  "url": "/publications/",
+  "content": "\n\nPublications\n\nHere is a (mostly complete, but probably not fully up to date) list of all my peer-reviewed publications. A more comprehensive and up-to-date listing is available at my Google Scholar profile.\n\nRecent Posters\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n"
+},{
+  "title": "Software and Data",
+  "url": "/software & data/",
+  "content": "Software and Data Website Git Paper Authors: M. Lamba and F.A. Santosa Coconut Libtool Textual analysis remains challenging for researchers, students and practitioners without programming expertise, creating barriers in social sciences and humanities research. To overcome that barrier, we developed Coconut Libtool, a web-based application that makes advanced textual analysis and visualization accessible to everyone. Dataset Demo App Paper Authors: M. Lamba, Y. Peng, S. Nikolov, and J. S. Downie Human Annotated Acknowledgment Dataset Acknowledgments are the most overlooked part of a scientific publication that is often taken for granted.Examining the acknowledgment sections of dissertations is crucial for understanding the cultural aspects embedded within academic practices and their impact on wider societal values and norms. We introduce an ongoing project involving a manually coded dataset consisting of acknowledgment sentences derived from dissertations sourced from the institutional repository of the University of Illinois Urbana-Champaign. Project Improve Parsing of ETDs Creating approaches for parsing author, advisor and degree metadata from electronic theses and dissertations (ETDs), recognising the distinct challenges and opportunities presented by this important type of scholarly output. Dataset Paper Authors: C. Barnett, M. FitzGerald, K. Krumbholz, and M. Lamba (Equal Contribution) Gender and Politics Research This application provides access to..."
+},{
+  "title": "Service and Professional Activities",
+  "url": "/service/",
+  "content": "Editorial Leadership 2026–PresentEditorial Board — Information Services and Use 2025–PresentEditorial Board — Humanities and Social Sciences Communications, Nature 2025–PresentAI Advisory Board — Cureus Journal of AI-Augmented Research 2021–2025Editor-in-Chief — International Journal of Library and Information Services (IJLIS), IGI Global Minitrack and Symposia Organized Manika Lamba, Kyrie Zhixuan Zhou, Ece Gumusel. (2027). “Accessibility, Justice, and Critical AI in Sociotechnical Systems Minitrack”. In 60th Hawaii International Conference on System Sciences (HICSS), Waikoloa Village, Hawaii. Brady D Lund, Manika Lamba, Lydia Oladapo. (2025). “Forging Ahead: Librarianship and Information Services in Times of Technological, Cultural, and Political Change”. In 88th Annual Meeting of the Association for Information Science and Technology, Washington DC, USA. Professional and Conference Service 2024–2026International Paper Contest Jury — SIG International Information Issues (III), ASIS&amp;T 2021–2025Standing Committee Member — IFLA Science and Technology Libraries Section 2021–2022Secretary/Treasurer — SIG Organizational Information Management, ASIS&amp;T 2026Advisor — COMET Enrichment Project for ETDs 2026Jury Member — Doctoral Dissertation Award, ASIS&amp;T 2026Doctoral Consortium Co-Chair — ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2025Outreach/Publicity Co-Chair — ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2025Jury Chair — Research in Information Science Award, ASIS&amp;T 2024Committee Member — Documentation &amp; Info Sec, Bureau of Indian Standards 2024Awards Jury Member —..."
+},{
+  "title": "Software",
+  "url": "/software/",
+  "content": "## Software and Data Software: Coconut Libtool Website Git Paper Authors: M. Lamba and F.A. Santosa Textual analysis remains challenging for researchers, students and practitioners without programming expertise, creating barriers in social sciences and humanities research. This poster presents Coconut Libtool 2.0, an enhanced web-based application that makes advanced textual analysis and visualization accessible to everyone. Building upon version 1.0, Coconut Libtool 2.0 significantly expands data source integration to include HathiTrust digital library, Dimensions, and PubMed, alongside existing Scopus, Web of Science, Lens, and customized file support. Enhanced text and visualization techniques include established methods for topic modeling, network text analysis, and keyword stemming, in addition to new features such as burst detection, sentiment analysis, and scattertext visualization. Dataset: Human Annotated Dataset of Support and Sentiments in Dissertation Acknowledgments Dataset Demo App Paper Authors: M. Lamba, Y. Peng, S. Nikolov, and J. S. Downie Acknowledgments are the most overlooked part of a scientific publication that is often taken for granted. The acknowledgment section of dissertations is historically understudied and is considered as \"Cinderella\" of academic writing. Examining the acknowledgment sections of dissertations is crucial for understanding the cultural aspects embedded within academic practices and their impact on wider societal values..."
+},{
+  "title": "Talks",
+  "url": "/talks/",
+  "content": "## Invited Talks\n\n\n\n\nThanking the World\n\n\n\n\nMetadata Enrichment of Low Resource Data using LLM Agent\n\n\n\n\nOU AI Webinar Series: Coconut Libtool: AI-Driven Document Analysis\n\n\n\n\nAI-Driven Organization for Scientific Literature\n\n\n\n\nAdventures in Text Mining\n\n\n\n\nText Mining for Information Professionals\n\n\n\n\n\n"
+},{
+  "title": "Teaching",
+  "url": "/teaching/",
+  "content": "\n\n\n\nIf you are not redirected automatically,\nclick here."
+},{
+  "title": "Lab",
+  "url": "/team/",
+  "content": "## Text-as-Data (TaDa) Research Group\n\nWe are always looking for new team members, please email at manika@ou.edu if you are interested!\n\n## PI\n\n\n\n\n\n{{ site.name }}\n{{ site.title }}, University of Oklahoma\n\n{% if site.email %}{% endif %}\n{% if site.links.google_scholar and site.links.google_scholar != \"\" %}{% endif %}\n{% if site.links.cv and site.links.cv != \"\" %}{% endif %}\n{% if site.links.github and site.links.github != \"\" %}{% endif %}\n{% if site.links.researchgate and site.links.researchgate != \"\" %}{% endif %}\n\n\n\n\n\n\n{% if site.data.team_members.size > 0 %}\n## Current Members \n\n\n{% for member in site.data.team_members %}\n\n\n{{ member.name }}\n{{ member.info }}\n\n{% if member.email %}{% endif %}\n{% if member.website %}{% endif %}\n{% if member.scholar %}{% endif %}\n{% if member.github %}{% endif %}\n\n\n{% endfor %}\n\n{% endif %}\n\n{% if site.data.alumni.size > 0 %}\n## Past Members\n\n\n\n\nNameDurationCurrent Position\n\n\n{% for member in site.data.alumni %}\n\n{{ member.name }}\n{{ member.duration }}\n{{ member.info }}\n\n{% endfor %}\n\n\n\n{% endif %}\n\n"
+}]

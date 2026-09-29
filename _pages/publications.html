@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2775.1">
+  <style type="text/css">
+    p.p3 {margin: 0.0px 0.0px 10.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    p.p4 {margin: 0.0px 0.0px 10.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626; min-height: 16.0px}
+    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #2965a8; -webkit-text-stroke: #2965a8}
+    span.s1 {font-kerning: none}
+    span.s2 {color: #262626; -webkit-text-stroke: 0px #000000}
+    span.s3 {font-kerning: none; color: #262626; -webkit-text-stroke: 0px #262626}
+    span.s4 {font-kerning: none; color: #2965a8; -webkit-text-stroke: 0px #2965a8}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 38.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Publications</span></h1>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Publications</span></h2>
+<p class="p3"><span class="s1">Here is a (mostly complete, but probably not fully up to date) list of all my peer-reviewed publications. A more comprehensive and up-to-date (but slightly noisy) listing is available at my Google Scholar profile.</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<h3 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Preprints</span></h3>
+<ol class="ol1">
+  <li class="li6"><span class="s2"></span><span class="s3">Gardasevic, S., Lamba, M., and Malone, J.S. (2025). <a href="https://arxiv.org/abs/2505.00907"><span class="s4">“Co-Designing a Knowledge Graph Navigation Interface: A Participatory Approach.”</span></a></span></li>
+</ol>
+<p class="p3"><span class="s1">{% bibliography –query @unpublished %}</span></p>
+<h3 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Refereed Journal Articles</span></h3>
+<p class="p3"><span class="s1">{% bibliography –query @article %}</span></p>
+<h3 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Refereed Conference Proceedings</span></h3>
+<p class="p3"><span class="s1">{% bibliography –query @inproceedings %}</span></p>
+</body>
+</html>
